@@ -1,5 +1,6 @@
 <style>
-    
+	
+
 </style>
 
 <div class="flex flex-wrap place-items-center">
@@ -9,7 +10,7 @@
 		<div class="px-5 xl:px-12 py-6 flex w-full items-center">
 		  <a class="text-3xl font-bold font-heading" href="/">
 			<!-- <img class="h-9" src="logo.png" alt="logo"> -->
-			<img class="h-12" src="../../static/img/logo.png" alt="logo">
+			
 		  </a>
 		  <!-- Nav Links -->
 		  <ul class="hidden md:flex px-4 mx-auto font-semibold font-heading space-x-12 text-center">
@@ -19,7 +20,7 @@
 			<li><a class="hover:text-gray-200" href="/contact">Contact Us</a></li>
 		  </ul>
 		</div>
-        <a class="flex items-center hover:text-gray-200 text-right" href="#">
+        <a class="flex items-center hover:text-gray-200" href="#">
             <img class="h-12" src="../../static/img/motto.png" alt="logo">
         </a>
 	  </nav>
