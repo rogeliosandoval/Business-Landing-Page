@@ -5,22 +5,22 @@
 <style>
 
     .foot {
-        position:fixed;
-        bottom:0;
-        width:100%;
+    position:relative;
+    bottom:0;
+    width:100%;
     }
 
     .fa {
-    padding: 20px;
-    font-size: 50px;
-    width: 90px;
+    padding: 10px;
+    font-size: 25px;
+    width: 45px;
     text-align: center;
     text-decoration: none;
-    margin: 10px 40px;
+    margin: 10px 15px;
     }
 
     .fa:hover {
-        opacity: 0.7;
+    opacity: 0.7;
     }
 
     .fa-facebook {
@@ -40,7 +40,7 @@
     
 </style>
 
-<footer class="foot relative bg-gray-300 p-4">
+<footer class="foot relative bg-gray-300 p-1">
   <div class="container mx-auto px-4">
     <div class="flex flex-wrap text-center">
       <div class="w-full lg:w-12 px-4">

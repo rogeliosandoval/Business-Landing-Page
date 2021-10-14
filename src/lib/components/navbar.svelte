@@ -1,28 +1,37 @@
 <style>
 	
+	.logo{
+		height: 175px;
+		width: 175px;
+		padding: 1px;
+		position: absolute;
+		margin-top: -100px;
+	}
 
 </style>
 
-<div class="flex flex-wrap place-items-center">
+<div class="flex flex-wrap place-items-center mx-auto">
 	<section class="relative mx-auto w-full">
 		<!-- navbar -->
 	  <nav class="flex justify-between bg-blue-900 text-white">
-		<div class="px-5 xl:px-12 py-6 flex w-full items-center">
-		  <a class="text-3xl font-bold font-heading" href="/">
+		<div class="px-2 xl:px-12 py-6 flex w-full items-center">
+		  <a class="font-bold font-heading" href="/">
 			<!-- <img class="h-9" src="logo.png" alt="logo"> -->
-			
+			<img class="logo h-12 w-10" src="../../static/img/logo.png" alt="logo">
 		  </a>
 		  <!-- Nav Links -->
-		  <ul class="hidden md:flex px-4 mx-auto font-semibold font-heading space-x-12 text-center">
+		  <ul class="hidden md:flex px-4 ml-auto font-semibold font-heading space-x-12 text-center">
 			<li><a class="hover:text-gray-200" href="/">Home</a></li>
-			<li><a class="hover:text-gray-200" href="/review">Review</a></li>
-			<li><a class="hover:text-gray-200" href="#">Collections</a></li>
+			<li><a class="hover:text-gray-200" href="/review">Reviews</a></li>
+			<li><a class="hover:text-gray-200" href="#">Careers</a></li>
+			<li><a class="hover:text-gray-200" href="#">Schedule An Inspection</a></li>
+			<li><a class="hover:text-gray-200" href="#">About Us</a></li>
 			<li><a class="hover:text-gray-200" href="/contact">Contact Us</a></li>
 		  </ul>
 		</div>
-        <a class="flex items-center hover:text-gray-200" href="#">
-            <img class="h-12" src="../../static/img/motto.png" alt="logo">
-        </a>
+        <div class="flex items-center hover:text-gray-200">
+            <img class="h-12" src="../../static/img/motto.png" alt="motto">
+		</div>
 	  </nav>
 	  
 	</section>
