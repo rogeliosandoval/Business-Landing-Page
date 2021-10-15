@@ -21,7 +21,7 @@
 
   <div class="items-center flex flex-wrap">
     <div class="w-full md:w-4/12 ml-auto mr-auto px-4">
-      <img alt="..." class="ythi max-w-full rounded-lg shadow-lg" src="../../static/img/ythi.gif">
+      <img alt="..." class="ythi max-w-full rounded-lg shadow-lg" src="../../img/ythi.gif">
     </div>
     <div class="w-full md:w-5/12 ml-auto mr-auto px-4">
       <div class="md:pr-12">
@@ -75,21 +75,93 @@
     </div>
   </div>
 
+  <div class="container mx-auto">
+    <div class="grid grid-cols-2 gap-4 pt-20 pb-20">
+
+      <div>
+
+        <h1 class="text-3xl font-semibold">Your Home Inspector || San Antonio, Texas</h1>
+        
+        <div class="text-lg leading-relaxed text-blueGray-500">
+          Here will be some info
+        </div>
+
+      </div>
+
+      <div>
+        <img alt="house" src="../../img/house.png">
+      </div>
+
+    </div>
+  </div>
+
   <div class="container mx-auto text-center pt-6 pb-6 font-sans text-6xl">
     <h1>Our Certifications</h1>
   </div>
  
   <div class="container mx-auto pt-4">
-    <div class="grid grid-cols-3 gap-4 text-center bg-white">
-      <div>1</div>
-      <div>2</div>
-      <div>3</div>
-      <div>4</div>
-      <div>5</div>
-      <div>6</div>
-      <div>7</div>
-      <div>8</div>
-      <div>9</div>
+    <div class="grid grid-cols-5 gap-4 text-center bg-white">
+
+      <div>
+        <img alt="cert1" src="../../img/icons/c1.png">
+      </div>
+
+      <div>
+        <img alt="cert2" src="../../img/icons/c2.png">
+      </div>
+
+      <div>
+        <img alt="cert3" src="../../img/icons/c3.png">
+      </div>
+
+      <div>
+        <img alt="cert4" src="../../img/icons/c4.png">
+      </div>
+
+      <div>
+        <img alt="cert5" src="../../img/icons/c5.png">
+      </div>
+
+      <div>
+        <img alt="cert6" src="../../img/icons/c6.jpeg">
+      </div>
+
+      <div>
+        <img alt="cert7" src="../../img/icons/c7.png">
+      </div>
+
+      <div>
+        <img alt="cert8" src="../../img/icons/c8.png">
+      </div>
+
+      <div>
+        <img alt="cert9" src="../../img/icons/c9.png">
+      </div>
+
+      <div>
+        <img alt="cert10" src="../../img/icons/c10.png">
+      </div>
+
+      <div>
+        <img alt="cert11" src="../../img/icons/c11.png">
+      </div>
+
+      <div>
+        <img alt="cert12" src="../../img/icons/c12.png">
+      </div>
+
+      <div>
+        <img alt="cert13" src="../../img/icons/c13.png">
+      </div>
+
+      <div>
+        <img alt="cert14" src="../../img/icons/c14.png">
+      </div>
+
+      <div>
+        <img alt="cert15" src="../../img/icons/c15.gif">
+      </div>
+
     </div>
   </div>
 

@@ -17,7 +17,7 @@
 		<div class="px-2 xl:px-12 py-6 flex w-full items-center">
 		  <a class="font-bold font-heading" href="/">
 			<!-- <img class="h-9" src="logo.png" alt="logo"> -->
-			<img class="logo h-12 w-10" src="../../static/img/logo.png" alt="logo">
+			<img class="logo h-12 w-10" src="../../img/logo.png" alt="logo">
 		  </a>
 		  <!-- Nav Links -->
 		  <ul class="hidden md:flex px-4 ml-auto font-semibold font-heading space-x-12 text-center">
@@ -30,7 +30,7 @@
 		  </ul>
 		</div>
         <div class="flex items-center hover:text-gray-200">
-            <img class="h-12" src="../../static/img/motto.png" alt="motto">
+            <img class="h-12" src="../../img/motto.png" alt="motto">
 		</div>
 	  </nav>
 	  
