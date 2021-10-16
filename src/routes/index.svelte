@@ -80,10 +80,14 @@
 
       <div>
 
-        <h1 class="text-3xl font-semibold">Your Home Inspector || San Antonio, Texas</h1>
+        <h1 class="text-3xl font-semibold">Why should I get a home inspection?</h1>
         
-        <div class="text-lg leading-relaxed text-blueGray-500">
-          Here will be some info
+        <div class="mt-4 text-lg leading-relaxed text-blueGray-500">
+          A home inspection allows buyers and owners to learn more about the issues that are present within the property they are interested in before buying or investing in it. Many lenders won't offer financing on a home without an inspection. Home inspections can uncover potentially life-threatening problems like mold or faulty wiring that could cause a significant fire.
+        </div>
+
+        <div class="mt-4 text-lg leading-relaxed text-blue-900 mx-auto">
+          <a class="hover:text-blue-500 hover:underline" href="#">More FAQ Here</a>
         </div>
 
       </div>
