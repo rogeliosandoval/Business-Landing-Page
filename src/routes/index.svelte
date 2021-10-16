@@ -9,9 +9,20 @@
         height: 265px;
     }
 
-    .logo{
+    .logo {
       width: 150px;
       height: 175px;
+    }
+
+    video {
+      filter: brightness(50%);
+    }
+
+    .cent {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
     }
 
 </style>
@@ -86,7 +97,7 @@
           A home inspection allows buyers and owners to learn more about the issues that are present within the property they are interested in before buying or investing in it. Many lenders won't offer financing on a home without an inspection. Home inspections can uncover potentially life-threatening problems like mold or faulty wiring that could cause a significant fire.
         </div>
 
-        <div class="mt-4 text-lg leading-relaxed text-blue-900 mx-auto">
+        <div class="mt-4 text-lg leading-relaxed text-blue-900">
           <a class="hover:text-blue-500 hover:underline" href="#">More FAQ Here</a>
         </div>
 
@@ -98,6 +109,18 @@
 
     </div>
   </div>
+
+  <div class="container mx-auto">
+    <video class="mx-auto" style="width:85%" muted autoplay loop>
+      <source src="https://metrixhosting.com/wp-content/uploads/2020/08/Preview-yourtime-site-vids-1.mp4" type="video/mp4" />
+    </video>
+    
+    <div class="cent">
+      THIS IS A TEST I HOPE THIS WORKS
+    </div>
+
+  </div>
+  
 
   <div class="container mx-auto text-center pt-6 pb-6 font-sans text-6xl">
     <h1>Our Certifications</h1>

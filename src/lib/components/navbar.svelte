@@ -26,6 +26,7 @@
 			<li><a class="hover:text-gray-200" href="#">Careers</a></li>
 			<li><a class="hover:text-gray-200" href="#">Schedule An Inspection</a></li>
 			<li><a class="hover:text-gray-200" href="#">About Us</a></li>
+			<li><a class="hover:text-gray-200" href="#">FAQs</a></li>
 			<li><a class="hover:text-gray-200" href="/contact">Contact Us</a></li>
 		  </ul>
 		</div>
