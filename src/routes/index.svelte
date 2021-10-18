@@ -116,11 +116,15 @@
     </video>
     
     <div class="cent">
-      THIS IS A TEST I HOPE THIS WORKS
+      THIS IS A TEST I HOPE THIS WORKS!
     </div>
 
   </div>
-  
+
+  <video width="320" height="240" autoplay loop muted>
+    <source src="../../video/landing.mp4" type="video/mp4" />
+    <source src="../../video/landing.webm" type="video/webm" />
+  </video>
 
   <div class="container mx-auto text-center pt-6 pb-6 font-sans text-6xl">
     <h1>Our Certifications</h1>
