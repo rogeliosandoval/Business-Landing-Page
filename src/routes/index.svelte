@@ -4,23 +4,17 @@
 
 <style>
 
-    .ythi {
-        width: 475px;
-        height: 265px;
-    }
+  .team {
+    filter: brightness(75%);
+  }
 
-    .logo {
-      width: 150px;
-      height: 175px;
-    }
-
-    video {
+    .bigvid {
       filter: brightness(50%);
     }
 
     .cent {
       position: absolute;
-      top: 50%;
+      top: 65%;
       left: 50%;
       transform: translate(-50%, -50%);
     }
@@ -30,9 +24,22 @@
 
 <section class="relative pb-12 pt-12 bg-yellow-200 font-sans">
 
+  <div class="mx-auto">
+
+    <div>
+      
+      <img class="team block mx-auto" alt="team" src="../../img/team.jpeg">
+
+    </div>
+
+  </div>
+
   <div class="items-center flex flex-wrap">
     <div class="w-full md:w-4/12 ml-auto mr-auto px-4">
-      <img alt="..." class="ythi max-w-full rounded-lg shadow-lg" src="../../img/ythi.gif">
+      <video class="smallvid border-t-4 border-b-4 border-blue-500 border-opacity-70" style="width:100%" autoplay loop muted>
+        <source src="../../video/landing.mp4" type="video/mp4" />
+        <source src="../../video/landing.webm" type="video/webm" />
+      </video>
     </div>
     <div class="w-full md:w-5/12 ml-auto mr-auto px-4">
       <div class="md:pr-12">
@@ -111,20 +118,62 @@
   </div>
 
   <div class="container mx-auto">
-    <video class="mx-auto" style="width:85%" muted autoplay loop>
+    <video class="bigvid mx-auto border-t-4 border-b-4 border-blue-500" style="width:100%" muted autoplay loop>
       <source src="https://metrixhosting.com/wp-content/uploads/2020/08/Preview-yourtime-site-vids-1.mp4" type="video/mp4" />
     </video>
     
-    <div class="cent">
-      THIS IS A TEST I HOPE THIS WORKS!
+    <div class="cent container mx-auto text-center">
+      <div class="grid grid-cols-3 gap-4">
+      
+        <div class="max-w-sm rounded overflow-hidden shadow-lg bg-white">
+          <img class="w-full" src="../../img/house.png" alt="Sunset in the mountains">
+          <div class="px-6 py-4">
+            <div class="font-bold text-xl mb-2">Pre-Listing Inspection</div>
+            <p class="text-gray-700 text-base">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
+            </p>
+          </div>
+          <div class="px-6 pt-4 pb-2">
+            <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#photography</span>
+            <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#travel</span>
+            <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#winter</span>
+          </div>
+        </div>
+
+        <div class="max-w-sm rounded overflow-hidden shadow-lg bg-white">
+          <img class="w-full" src="../../img/house.png" alt="Sunset in the mountains">
+          <div class="px-6 py-4">
+            <div class="font-bold text-xl mb-2">Pre-Listing Inspection</div>
+            <p class="text-gray-700 text-base">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
+            </p>
+          </div>
+          <div class="px-6 pt-4 pb-2">
+            <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#photography</span>
+            <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#travel</span>
+            <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#winter</span>
+          </div>
+        </div>
+
+        <div class="max-w-sm rounded overflow-hidden shadow-lg bg-white">
+          <img class="w-full" src="../../img/house.png" alt="Sunset in the mountains">
+          <div class="px-6 py-4">
+            <div class="font-bold text-xl mb-2">Pre-Listing Inspection</div>
+            <p class="text-gray-700 text-base">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
+            </p>
+          </div>
+          <div class="px-6 pt-4 pb-2">
+            <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#photography</span>
+            <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#travel</span>
+            <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#winter</span>
+          </div>
+        </div>
+
+      </div>
+
     </div>
-
   </div>
-
-  <video width="320" height="240" autoplay loop muted>
-    <source src="../../video/landing.mp4" type="video/mp4" />
-    <source src="../../video/landing.webm" type="video/webm" />
-  </video>
 
   <div class="container mx-auto text-center pt-6 pb-6 font-sans text-6xl">
     <h1>Our Certifications</h1>
