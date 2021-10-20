@@ -5,19 +5,20 @@
 <style>
 
   .team {
-    filter: brightness(75%);
+  filter: brightness(75%);
   }
 
-    .bigvid {
-      filter: brightness(50%);
-    }
+  .bigvid {
+  filter: brightness(50%);
+  }
 
-    .cent {
-      position: absolute;
-      top: 65%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-    }
+  .cent {
+  width: 1150px;
+  position: absolute;
+  top: 68%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  }
 
 </style>
 
@@ -34,7 +35,7 @@
 
   </div>
 
-  <div class="items-center flex flex-wrap">
+  <div class="items-center flex flex-wrap pt-12 pb-12">
     <div class="w-full md:w-4/12 ml-auto mr-auto px-4">
       <video class="smallvid border-t-4 border-b-4 border-blue-500 border-opacity-70" style="width:100%" autoplay loop muted>
         <source src="../../video/landing.mp4" type="video/mp4" />
@@ -93,7 +94,7 @@
     </div>
   </div>
 
-  <div class="container mx-auto">
+  <div class="container mx-auto pb-12">
     <div class="grid grid-cols-2 gap-4 pt-20 pb-20">
 
       <div>
@@ -123,50 +124,35 @@
     </video>
     
     <div class="cent container mx-auto text-center">
-      <div class="grid grid-cols-3 gap-4">
+      <div class="grid grid-cols-3 gap-x-20">
       
-        <div class="max-w-sm rounded overflow-hidden shadow-lg bg-white">
-          <img class="w-full" src="../../img/house.png" alt="Sunset in the mountains">
+        <div class="max-w-sm rounded overflow-hidden shadow-lg bg-blue-100">
+          <img class="mx-auto pt-5" style="width:90px;height:100px;" alt="list" src="../../img/list.png">
           <div class="px-6 py-4">
             <div class="font-bold text-xl mb-2">Pre-Listing Inspection</div>
             <p class="text-gray-700 text-base">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
+              Have confidence in your asking price with a pre-listing inspection and avoid costly delays. A report you can rely on.
             </p>
-          </div>
-          <div class="px-6 pt-4 pb-2">
-            <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#photography</span>
-            <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#travel</span>
-            <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#winter</span>
           </div>
         </div>
 
-        <div class="max-w-sm rounded overflow-hidden shadow-lg bg-white">
-          <img class="w-full" src="../../img/house.png" alt="Sunset in the mountains">
+        <div class="max-w-sm rounded overflow-hidden shadow-lg bg-blue-100">
+          <img class="mx-auto pt-5" style="width:90px;height:100px;" alt="home-heart" src="../../img/home-heart.png">
           <div class="px-6 py-4">
-            <div class="font-bold text-xl mb-2">Pre-Listing Inspection</div>
+            <div class="font-bold text-xl mb-2">Residential Purchase</div>
             <p class="text-gray-700 text-base">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
+              Have a better understanding of the condition of your property with our residential home inspection. Buy with confidence!
             </p>
-          </div>
-          <div class="px-6 pt-4 pb-2">
-            <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#photography</span>
-            <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#travel</span>
-            <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#winter</span>
           </div>
         </div>
 
-        <div class="max-w-sm rounded overflow-hidden shadow-lg bg-white">
-          <img class="w-full" src="../../img/house.png" alt="Sunset in the mountains">
+        <div class="max-w-sm rounded overflow-hidden shadow-lg bg-blue-100">
+          <img class="mx-auto pt-5" style="width:75px;height:100px;" alt="magnify" src="../../img/magnify.png">
           <div class="px-6 py-4">
-            <div class="font-bold text-xl mb-2">Pre-Listing Inspection</div>
+            <div class="font-bold text-xl mb-2">Investment Properties</div>
             <p class="text-gray-700 text-base">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
+              Expand your portfolio with confidence using our investment property inspections. Quick & Reliable.
             </p>
-          </div>
-          <div class="px-6 pt-4 pb-2">
-            <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#photography</span>
-            <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#travel</span>
-            <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#winter</span>
           </div>
         </div>
 
@@ -175,8 +161,8 @@
     </div>
   </div>
 
-  <div class="container mx-auto text-center pt-6 pb-6 font-sans text-6xl">
-    <h1>Our Certifications</h1>
+  <div class="container mx-auto text-center pt-12 pb-12 font-sans text-6xl">
+    <h1 class="tracking-widest">Our Certifications</h1>
   </div>
  
   <div class="container mx-auto pt-4">

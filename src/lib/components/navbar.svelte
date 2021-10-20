@@ -23,7 +23,7 @@
 		  <ul class="hidden md:flex px-4 ml-auto font-semibold font-heading space-x-12 text-center">
 			<li><a class="hover:text-gray-200" href="/">Home</a></li>
 			<li><a class="hover:text-gray-200" href="/review">Reviews</a></li>
-			<li><a class="hover:text-gray-200" href="#">Careers</a></li>
+			<li><a class="hover:text-gray-200" href="/career">Careers</a></li>
 			<li><a class="hover:text-gray-200" href="#">Schedule An Inspection</a></li>
 			<li><a class="hover:text-gray-200" href="#">About Us</a></li>
 			<li><a class="hover:text-gray-200" href="#">FAQs</a></li>
