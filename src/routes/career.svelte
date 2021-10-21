@@ -25,38 +25,47 @@
 <section class="relative pb-12 pt-12 bg-yellow-200 font-sans">
     <div class="container mx-auto">
         <video class="bigvid mx-auto border-t-4 border-b-4 border-blue-500" style="width:100%" muted autoplay loop>
-        <source src="https://metrixhosting.com/wp-content/uploads/2020/08/Preview-yourtime-site-vids-1.mp4" type="video/mp4" />
+        <source src="https://yourtimehomeinspections.com/wp-content/uploads/2020/08/Preview-yourtime-site-vids-2-2.mp4" type="video/mp4" />
         </video>
         
         <div class="cent container mx-auto text-center">
+
+            <div class="text-white">
+                get a career with
+            </div>
+            
+            <div class="pb-40 text-6xl text-white font-bold">
+                YOUR TIME HOME INSPECTIONS
+            </div>
+
         <div class="grid grid-cols-3 gap-x-20">
         
             <div class="max-w-sm rounded overflow-hidden shadow-lg bg-blue-100">
-            <img class="mx-auto pt-5" style="width:90px;height:100px;" alt="list" src="../../img/list.png">
+            <img class="mx-auto pt-5" style="width:70px;height:100px;" alt="inspector" src="../../img/inspector.png">
             <div class="px-6 py-4">
-                <div class="font-bold text-xl mb-2">Pre-Listing Inspection</div>
+                <div class="font-bold text-xl mb-2">Inspector</div>
                 <p class="text-gray-700 text-base">
-                Have confidence in your asking price with a pre-listing inspection and avoid costly delays. A report you can rely on.
+                    Join our team of inspectors
                 </p>
             </div>
             </div>
 
             <div class="max-w-sm rounded overflow-hidden shadow-lg bg-blue-100">
-            <img class="mx-auto pt-5" style="width:90px;height:100px;" alt="home-heart" src="../../img/home-heart.png">
+            <img class="mx-auto pt-5" style="width:103px;height:115px;" alt="client" src="../../img/client.png">
             <div class="px-6 py-4">
-                <div class="font-bold text-xl mb-2">Residential Purchase</div>
+                <div class="font-bold text-xl mb-2">Client Coordinator</div>
                 <p class="text-gray-700 text-base">
-                Have a better understanding of the condition of your property with our residential home inspection. Buy with confidence!
+                    Pick up the phones and shit
                 </p>
             </div>
             </div>
 
             <div class="max-w-sm rounded overflow-hidden shadow-lg bg-blue-100">
-            <img class="mx-auto pt-5" style="width:75px;height:100px;" alt="magnify" src="../../img/magnify.png">
+            <img class="mx-auto pt-5" style="width:90px;height:115px;" alt="penguin" src="../../img/penguin.png">
             <div class="px-6 py-4">
-                <div class="font-bold text-xl mb-2">Investment Properties</div>
+                <div class="font-bold text-xl mb-2">Marketer/Tech</div>
                 <p class="text-gray-700 text-base">
-                Expand your portfolio with confidence using our investment property inspections. Quick & Reliable.
+                    Help us spread the word on social media and take on a developer role
                 </p>
             </div>
             </div>

@@ -127,7 +127,7 @@
       <div class="grid grid-cols-3 gap-x-20">
       
         <div class="max-w-sm rounded overflow-hidden shadow-lg bg-blue-100">
-          <img class="mx-auto pt-5" style="width:90px;height:100px;" alt="list" src="../../img/list.png">
+          <img class="mx-auto pt-5" style="width:85px;height:100px;" alt="list" src="../../img/list.png">
           <div class="px-6 py-4">
             <div class="font-bold text-xl mb-2">Pre-Listing Inspection</div>
             <p class="text-gray-700 text-base">
