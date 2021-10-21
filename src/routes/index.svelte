@@ -15,7 +15,7 @@
   .cent {
   width: 1150px;
   position: absolute;
-  top: 68%;
+  top: 63%;
   left: 50%;
   transform: translate(-50%, -50%);
   }
@@ -124,6 +124,15 @@
     </video>
     
     <div class="cent container mx-auto text-center">
+
+      <div class="text-white">
+        Your Time Home Inspections
+      </div>
+    
+      <div class="pb-40 text-6xl text-white font-bold">
+        Inspected Once, Inspected Right®
+      </div>
+
       <div class="grid grid-cols-3 gap-x-20">
       
         <div class="max-w-sm rounded overflow-hidden shadow-lg bg-blue-100">

@@ -11,7 +11,7 @@
     .cent {
     width: 1150px;
     position: absolute;
-    top: 20%;
+    top: 25%;
     left: 50%;
     transform: translate(-50%, -50%);
     }
@@ -42,17 +42,17 @@
             <div class="px-6 py-4">
                 <div class="font-bold text-xl mb-2">Inspector</div>
                 <p class="text-gray-700 text-base">
-                    Join our team of inspectors
+                    Join our team of inspectors and help others find piece within their porperties. Our inspectors are what drive this business and we would love to have you on the team!
                 </p>
             </div>
             </div>
 
-            <div class="max-w-sm rounded overflow-hidden shadow-lg bg-blue-100">
+            <div class="max-w-sm rounded overflow-hidden shadow-lg bg-blue-100 pb-7">
             <img class="mx-auto pt-5" style="width:103px;height:115px;" alt="client" src="../../img/client.png">
             <div class="px-6 py-4">
                 <div class="font-bold text-xl mb-2">Client Coordinator</div>
                 <p class="text-gray-700 text-base">
-                    Pick up the phones and shit
+                    Our client coordinators play an essential role in getting our inspectors to you. Help book inspections, set up events, or simply explain what Your Time Home Inspections is all about with generalized information.
                 </p>
             </div>
             </div>
@@ -62,7 +62,7 @@
             <div class="px-6 py-4">
                 <div class="font-bold text-xl mb-2">Marketer/Tech</div>
                 <p class="text-gray-700 text-base">
-                    Help us spread the word on social media and take on a developer role
+                    Help us spread the word on social media and take on a developer role! Or help us market by dropping off flyers, creating videos and/or attending events to help out the business!
                 </p>
             </div>
             </div>
