@@ -21,10 +21,11 @@
 		  </a>
 		  <!-- Nav Links -->
 		  <ul class="hidden md:flex px-4 ml-auto font-semibold font-heading space-x-12 text-center">
+			<li><a class="bg-blue-500 hover:bg-blue-400 text-yellow-200 font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded" href="#">Schedule An Inspection <i class="text-white fas fa-file-text"></i></a></li>
 			<li><a class="hover:text-gray-200" href="/">Home</a></li>
 			<li><a class="hover:text-gray-200" href="/review">Reviews</a></li>
+			<li><a class="hover:text-gray-200" href="/service">Services</a></li>
 			<li><a class="hover:text-gray-200" href="/career">Careers</a></li>
-			<li><a class="hover:text-gray-200" href="#">Schedule An Inspection</a></li>
 			<li><a class="hover:text-gray-200" href="#">About Us</a></li>
 			<li><a class="hover:text-gray-200" href="#">FAQs</a></li>
 			<li><a class="hover:text-gray-200" href="/contact">Contact Us</a></li>
