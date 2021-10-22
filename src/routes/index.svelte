@@ -112,7 +112,7 @@
       </div>
 
       <div>
-        <img alt="house" src="../../img/house.png">
+        <img class="mx-auto" alt="house" src="../../img/house.png">
       </div>
 
     </div>

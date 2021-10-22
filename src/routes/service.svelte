@@ -19,4 +19,46 @@
         </div>
         
     </div>
+
+    
+    <div class="text-6xl font-bold text-black text-center pt-10 pb-7">Inspected Once, Inspected Right®</div>
+
+    <div class="container mx-auto pt-7 pb-7 text-center grid grid-cols-3 gap-x-20">
+        
+        <div class="max-w-sm rounded overflow-hidden shadow-lg bg-blue-100">
+        <i class="pt-5 text-black fas fa-tags fa-7x"></i>
+        <div class="px-6 py-4">
+            <div class="font-bold text-xl mb-2">Pre-Listing</div>
+            <p class="text-gray-700 text-base tracking-wide">
+                Pre-Listing Home Inspection will help you the seller, avoid delays in selling your home. It will allow you the opportunity to make any needed life safety repairs ( Smoke Detectors, faulty GFCI etc.). As well as give you confidence in your asking price. We offer unparalleled Customer Services, Thorough Inspection, and a Report you can Rely on.
+            </p>
+        </div>
+        </div>
+
+        <div class="max-w-sm rounded overflow-hidden shadow-lg bg-blue-100 pb-7">
+        <i class="pt-5 text-black fas fa-home fa-7x"></i>
+        <div class="px-6 py-4">
+            <div class="font-bold text-xl mb-2">Residential</div>
+            <p class="text-gray-700 text-base tracking-wide">
+                A Residential Home Inspection Services will give you the buyer, a better understanding of the condition of your home. Knowing the condition of your home will help you make a confident decision. Whether the transaction involves a single-family home, condo, refinance, or construction loan, Your Time Home Inspections is the right choice to make.
+            </p>
+        </div>
+        </div>
+
+        <div class="max-w-sm rounded overflow-hidden shadow-lg bg-blue-100">
+        <i class="pt-5 text-black fas fa-money fa-7x"></i>
+        <div class="px-6 py-4">
+            <div class="font-bold text-xl mb-2">Investments</div>
+            <p class="text-gray-700 text-base tracking-wide">
+                Investment property inspections are different in that the property might be a bargain due to the condition. Understanding the actual deficiencies vs perceived issues can help you negotiate from a position of strength through knowledge. Expand your portfolio with confidence using our investment property inspections. Quick & Reliable.
+            </p>
+        </div>
+        </div>
+
+    </div>
+    
+
+
+
+
 </section>
