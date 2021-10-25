@@ -1,7 +1,17 @@
 <link rel="stylesheet" href="https://demos.creative-tim.com/notus-js/assets/styles/tailwind.css">
 <link rel="stylesheet" href="https://demos.creative-tim.com/notus-js/assets/vendor/@fortawesome/fontawesome-free/css/all.min.css">
 
+<script>
+    import Modal from '$lib/components/modal1.svelte'
+
+    let displayModal = false;
+</script>
+
 <section class="relative pb-12 pt-12 bg-yellow-200 font-sans">
+
+    <button role="button" on:click="{() => displayModal = !displayModal}">MODAL TIME</button>
+
+    <Modal {displayModal} />
 
     <div class="text-6xl font-bold text-black text-center pt-10 pb-7">
         Inspected Once, Inspected Right®

@@ -18,6 +18,14 @@
 
 </style>
 
+<script>
+    import Modal from '$lib/components/modal1.svelte'
+
+    let displayModal = false;
+</script>
+
+<Modal {displayModal} />
+
 <section class="relative pb-12 pt-12 bg-yellow-200 font-sans">
 
     <div class="container mx-auto">
@@ -37,15 +45,14 @@
 
         <div class="grid grid-cols-3 gap-x-20">
         
-            <div class="max-w-sm rounded overflow-hidden shadow-lg bg-blue-100">
-            <img class="mx-auto pt-5" style="width:70px;height:100px;" alt="inspector" src="../../img/inspector.png">
-            <div class="px-6 py-4">
-                <div class="font-bold text-xl mb-2">Inspector</div>
-                <p class="text-gray-700 text-base">
-                    Join our team of inspectors and help others find piece within their porperties. Our inspectors are what drive this business and we would love to have you on the team!
-                </p>
-            </div>
-            </div>
+            <button role="button" on:click="{() => displayModal = !displayModal}">
+                <div class="max-w-sm rounded overflow-hidden shadow-lg bg-blue-100 hover:bg-blue-300">
+                <img class="mx-auto pt-5" style="width:70px;height:100px;" alt="inspector" src="../../img/inspector.png">
+                <div class="px-6 py-4">
+                    <div class="font-bold text-xl mb-2">Inspector</div>
+                </div>
+                </div>
+            </button>
 
             <div class="max-w-sm rounded overflow-hidden shadow-lg bg-blue-100 pb-7">
             <img class="mx-auto pt-5" style="width:103px;height:115px;" alt="client" src="../../img/client.png">
