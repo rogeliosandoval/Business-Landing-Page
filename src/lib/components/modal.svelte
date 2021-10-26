@@ -1,5 +1,6 @@
 <script>
     export let displayModal;
+    export let displayModal2;
 </script>
 
 {#if displayModal}
@@ -14,6 +15,22 @@
         </p>
 
         <button class="bg-red-500 hover:bg-red-400 text-black font-bold py-2 px-4 border-b-4 border-red-700 hover:border-red-500 rounded"on:click="{() => displayModal = false}">Close</button>
+    </div>
+</div>
+{/if}
+
+{#if displayModal2}
+<div class="modal-bg">
+    <div class="modal-container p-7 text-center font-sans border-solid border-8 border-blue-600">
+        <p class="font-bold pb-5 text-3xl">
+            Client Coordinator
+        </p>
+
+        <p class="text-gray-700 text-base">
+            Our client coordinators play an essential role in getting our inspectors to you. Help book inspections, set up events, or simply explain what Your Time Home Inspections is all about with generalized information.
+        </p>
+
+        <button class="bg-red-500 hover:bg-red-400 text-black font-bold py-2 px-4 border-b-4 border-red-700 hover:border-red-500 rounded"on:click="{() => displayModal2 = false}">Close</button>
     </div>
 </div>
 {/if}

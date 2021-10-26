@@ -19,12 +19,13 @@
 </style>
 
 <script>
-    import Modal from '$lib/components/modal1.svelte'
+    import Modal from '$lib/components/modal.svelte'
 
     let displayModal = false;
+    let displayModal2 = false;
 </script>
 
-<Modal {displayModal} />
+<Modal {displayModal} {displayModal2} />
 
 <section class="relative pb-12 pt-12 bg-yellow-200 font-sans">
 
@@ -54,15 +55,14 @@
                 </div>
             </button>
 
-            <div class="max-w-sm rounded overflow-hidden shadow-lg bg-blue-100 pb-7">
-            <img class="mx-auto pt-5" style="width:103px;height:115px;" alt="client" src="../../img/client.png">
-            <div class="px-6 py-4">
-                <div class="font-bold text-xl mb-2">Client Coordinator</div>
-                <p class="text-gray-700 text-base">
-                    Our client coordinators play an essential role in getting our inspectors to you. Help book inspections, set up events, or simply explain what Your Time Home Inspections is all about with generalized information.
-                </p>
-            </div>
-            </div>
+            <button role="button" on:click="{() => displayModal2 = !displayModal2}">
+                <div class="max-w-sm rounded overflow-hidden shadow-lg bg-blue-100 hover:bg-blue-300 pb-7">
+                <img class="mx-auto pt-5" style="width:103px;height:115px;" alt="client" src="../../img/client.png">
+                <div class="px-6 py-4">
+                    <div class="font-bold text-xl mb-2">Client Coordinator</div>
+                </div>
+                </div>
+            </button>
 
             <div class="max-w-sm rounded overflow-hidden shadow-lg bg-blue-100">
             <img class="mx-auto pt-5" style="width:90px;height:115px;" alt="penguin" src="../../img/penguin.png">

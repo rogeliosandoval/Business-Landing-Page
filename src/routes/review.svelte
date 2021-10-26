@@ -2,7 +2,7 @@
 <link rel="stylesheet" href="https://demos.creative-tim.com/notus-js/assets/vendor/@fortawesome/fontawesome-free/css/all.min.css">
 
 <script>
-    import Modal from '$lib/components/modal1.svelte'
+    import Modal from '$lib/components/modal.svelte'
 
     let displayModal = false;
 </script>
