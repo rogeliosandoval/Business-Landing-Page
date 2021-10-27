@@ -35,7 +35,8 @@
 
         </div>
 
-        <button class="bg-red-500 hover:bg-red-400 text-black font-bold py-2 px-4 border-b-4 border-red-700 hover:border-red-500 rounded"on:click="{() => displayModal = false}">Close</button>
+        <button class="bg-red-500 hover:bg-red-400 text-black font-bold py-2 px-4 border-b-4 border-red-700 hover:border-red-500 rounded m-10 pt-4"on:click="{() => displayModal = false}">Close</button>
+        
     </div>
 </div>
 {/if}
@@ -50,8 +51,8 @@
         <p class="text-gray-700 text-base pb-5">
             Our client coordinators play an essential role in getting our inspectors to you. Help book inspections, set up events, or simply explain what Your Time Home Inspections is all about with generalized information.
         </p>
-
-        <button class="bg-red-500 hover:bg-red-400 text-black font-bold py-2 px-4 border-b-4 border-red-700 hover:border-red-500 rounded"on:click="{() => displayModal2 = false}">Close</button>
+        
+        <button class="bg-red-500 hover:bg-red-400 text-black font-bold py-2 px-4 border-b-4 border-red-700 hover:border-red-500 rounded "on:click="{() => displayModal2 = false}">Close</button>
     </div>
 </div>
 {/if}
