@@ -23,9 +23,10 @@
 
     let displayModal = false;
     let displayModal2 = false;
+    let displayModal3 = false;
 </script>
 
-<Modal {displayModal} {displayModal2} />
+<Modal {displayModal} {displayModal2} {displayModal3} />
 
 <section class="relative pb-12 pt-12 bg-yellow-200 font-sans">
 
@@ -47,7 +48,7 @@
         <div class="grid grid-cols-3 gap-x-20">
         
             <button role="button" on:click="{() => displayModal = !displayModal}">
-                <div class="max-w-sm rounded overflow-hidden shadow-lg bg-blue-100 hover:bg-blue-300">
+                <div class="max-w-sm rounded overflow-hidden shadow-lg bg-blue-100 hover:bg-blue-300 py-4">
                 <img class="mx-auto pt-5" style="width:70px;height:100px;" alt="inspector" src="../../img/inspector.png">
                 <div class="px-6 py-4">
                     <div class="font-bold text-xl mb-2">Inspector</div>
@@ -56,24 +57,22 @@
             </button>
 
             <button role="button" on:click="{() => displayModal2 = !displayModal2}">
-                <div class="max-w-sm rounded overflow-hidden shadow-lg bg-blue-100 hover:bg-blue-300 pb-7">
-                <img class="mx-auto pt-5" style="width:103px;height:115px;" alt="client" src="../../img/client.png">
+                <div class="max-w-sm rounded overflow-hidden shadow-lg bg-blue-100 hover:bg-blue-300 py-4">
+                <img class="mx-auto pt-5" style="width:95px;height:100px;" alt="client" src="../../img/client.png">
                 <div class="px-6 py-4">
                     <div class="font-bold text-xl mb-2">Client Coordinator</div>
                 </div>
                 </div>
             </button>
 
-            <div class="max-w-sm rounded overflow-hidden shadow-lg bg-blue-100">
-            <img class="mx-auto pt-5" style="width:90px;height:115px;" alt="penguin" src="../../img/penguin.png">
-            <div class="px-6 py-4">
-                <div class="font-bold text-xl mb-2">Marketer/Tech</div>
-                <p class="text-gray-700 text-base">
-                    Help us spread the word on social media and take on a developer role! Or help us market by dropping off flyers, creating videos and/or attending events to help out the business!
-                </p>
-            </div>
-            </div>
-
+            <button role="button" on:click="{() => displayModal3 = !displayModal3}">
+                <div class="max-w-sm rounded overflow-hidden shadow-lg bg-blue-100 hover:bg-blue-300 py-4">
+                <img class="mx-auto pt-5" style="width:80px;height:100px;" alt="penguin" src="../../img/penguin.png">
+                <div class="px-6 py-4">
+                    <div class="font-bold text-xl mb-2">Marketer/Tech</div>
+                </div>
+                </div>
+            </button>
         </div>
         </div>
     </div>
