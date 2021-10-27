@@ -136,7 +136,7 @@
       <div class="grid grid-cols-3 gap-x-20">
       
         <div class="max-w-sm rounded overflow-hidden shadow-lg bg-blue-100">
-          <img class="mx-auto pt-5" style="width:85px;height:100px;" alt="list" src="../../img/list.png">
+          <img class="mx-auto pt-5" style="width:80px;height:100px;" alt="list" src="../../img/list.png">
           <div class="px-6 py-4">
             <div class="font-bold text-xl mb-2">Pre-Listing Inspection</div>
             <p class="text-gray-700 text-base">
@@ -175,65 +175,65 @@
   </div>
  
   <div class="container mx-auto pt-4">
-    <div class="grid grid-cols-5 gap-4 text-center bg-white">
+    <div class="grid grid-cols-5 gap-4 text-center bg-white p-5">
 
-      <div>
+      <div class="mx-auto">
         <img alt="cert1" src="../../img/icons/c1.png">
       </div>
 
-      <div>
+      <div class="mx-auto">
         <img alt="cert2" src="../../img/icons/c2.png">
       </div>
 
-      <div>
+      <div class="mx-auto">
         <img alt="cert3" src="../../img/icons/c3.png">
       </div>
 
-      <div>
+      <div class="mx-auto">
         <img alt="cert4" src="../../img/icons/c4.png">
       </div>
 
-      <div>
+      <div class="mx-auto">
         <img alt="cert5" src="../../img/icons/c5.png">
       </div>
 
-      <div>
+      <div class="mx-auto">
         <img alt="cert6" src="../../img/icons/c6.jpeg">
       </div>
 
-      <div>
+      <div class="mx-auto">
         <img alt="cert7" src="../../img/icons/c7.png">
       </div>
 
-      <div>
+      <div class="mx-auto">
         <img alt="cert8" src="../../img/icons/c8.png">
       </div>
 
-      <div>
+      <div class="mx-auto">
         <img alt="cert9" src="../../img/icons/c9.png">
       </div>
 
-      <div>
+      <div class="mx-auto">
         <img alt="cert10" src="../../img/icons/c10.png">
       </div>
 
-      <div>
+      <div class="mx-auto">
         <img alt="cert11" src="../../img/icons/c11.png">
       </div>
 
-      <div>
+      <div class="mx-auto">
         <img alt="cert12" src="../../img/icons/c12.png">
       </div>
 
-      <div>
+      <div class="mx-auto">
         <img alt="cert13" src="../../img/icons/c13.png">
       </div>
 
-      <div>
+      <div class="mx-auto">
         <img alt="cert14" src="../../img/icons/c14.png">
       </div>
 
-      <div>
+      <div class="mx-auto pt-8">
         <img alt="cert15" src="../../img/icons/c15.gif">
       </div>
 
