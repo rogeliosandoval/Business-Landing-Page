@@ -2,6 +2,14 @@
 <link rel="stylesheet" href="https://demos.creative-tim.com/notus-js/assets/styles/tailwind.css">
 <link rel="stylesheet" href="https://demos.creative-tim.com/notus-js/assets/vendor/@fortawesome/fontawesome-free/css/all.min.css">
 
+<style>
+
+    .big-icon {
+        font-size: 300px;
+    }
+
+</style>
+
 <section class="relative pb-12 pt-12 bg-yellow-200 font-sans">
     <div class="container mx-auto">
         
@@ -56,9 +64,21 @@
         </div>
 
     </div>
-    
 
+    <div class="container mx-auto text-center grid grid-cols-2 pt-8">
 
+        <div class="bg-gray-400">
 
+            <div class="pt-5 pb-5">
+                <i class="big-icon pt-5 text-black fas fa-clipboard"></i>
+            </div>
+            
+        </div>
+
+        <div class="bg-yellow-500">
+            ANOTHER SIDE
+        </div>
+
+    </div>
 
 </section>

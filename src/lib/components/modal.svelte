@@ -20,7 +20,7 @@
             <div>
                 <video class="bigvid mx-auto" style="width:100%" muted autoplay loop>
                     <source src="https://metrixhosting.com/wp-content/uploads/2020/08/Preview-yourtime-site-vids-1.mp4" type="video/mp4" />
-                  </video>
+                </video>
             </div>
 
             <div class="mx-auto">
@@ -58,7 +58,7 @@
             <div>
                 <video class="bigvid mx-auto" style="width:100%" muted autoplay loop>
                     <source src="https://yourtimehomeinspections.com//wp-content//uploads//2020//08//Preview-yourtime-site-vids-3.mp4" type="video/mp4" />
-                  </video>
+                </video>
             </div>
 
             <div class="mx-auto">
@@ -94,9 +94,10 @@
         <div class="container grid grid-cols-2 gap-2 pb-8">
 
             <div>
-                <video class="bigvid mx-auto" style="width:100%" muted autoplay loop>
-                    <source src="https://yourtimehomeinspections.com//wp-content//uploads//2020//08//Preview-yourtime-site-vids-3.mp4" type="video/mp4" />
-                  </video>
+                <video class="smallvid" style="width:100%" autoplay loop muted>
+                    <source src="../../video/market.mp4" type="video/mp4" />
+                    <source src="../../video/market.webm" type="video/webm" />
+                </video>
             </div>
 
             <div class="mx-auto">
