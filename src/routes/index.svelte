@@ -15,7 +15,7 @@
   .cent {
   width: 1150px;
   position: absolute;
-  top: 63%;
+  top: 62%;
   left: 50%;
   transform: translate(-50%, -50%);
   }
