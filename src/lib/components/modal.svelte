@@ -36,7 +36,7 @@
 
         </div>
 
-        <button class="bg-red-500 hover:bg-red-400 text-black font-bold py-2 px-6 border-b-4 border-red-700 hover:border-red-500 rounded m-7"on:click="{() => displayModal = false}">Close</button>
+        <button class="bg-red-500 hover:bg-red-400 text-black font-bold py-2 px-6 border-b-4 border-red-700 hover:border-red-500 rounded m-7" on:click="{() => displayModal = false}">Close</button>
         
     </div>
 </div>
@@ -74,7 +74,7 @@
 
         </div>
 
-        <button class="bg-red-500 hover:bg-red-400 text-black font-bold py-2 px-6 border-b-4 border-red-700 hover:border-red-500 rounded m-7"on:click="{() => displayModal2 = false}">Close</button>
+        <button class="bg-red-500 hover:bg-red-400 text-black font-bold py-2 px-6 border-b-4 border-red-700 hover:border-red-500 rounded m-7" on:click="{() => displayModal2 = false}">Close</button>
         
     </div>
 </div>
@@ -113,7 +113,7 @@
 
         </div>
 
-        <button class="bg-red-500 hover:bg-red-400 text-black font-bold py-2 px-6 border-b-4 border-red-700 hover:border-red-500 rounded m-7"on:click="{() => displayModal3 = false}">Close</button>
+        <button class="bg-red-500 hover:bg-red-400 text-black font-bold py-2 px-6 border-b-4 border-red-700 hover:border-red-500 rounded m-7" on:click="{() => displayModal3 = false}">Close</button>
         
     </div>
 </div>

@@ -69,14 +69,111 @@
 
         <div class="bg-gray-400">
 
-            <div class="pt-5 pb-5">
+            <div class="p-14 m-14">
                 <i class="big-icon pt-5 text-black fas fa-clipboard"></i>
             </div>
             
         </div>
 
         <div class="bg-yellow-500">
-            ANOTHER SIDE
+            
+            <div class="p-8 m-11">
+                <p class="font-bold pb-5 text-4xl">Structural Inspection</p>
+                <ul class="text-left">
+                    <li class="text-2xl">
+                        <i class="text-black fas fa-check"></i> Foundation
+                    </li>
+                    
+                    <li class="text-2xl">
+                        <i class="text-black fas fa-check"></i> Grading and Drainage
+                    </li>
+
+                    <li class="text-2xl">
+                        <i class="text-black fas fa-check"></i> Roof Covering
+                    </li>
+
+                    <li class="text-2xl">
+                        <i class="text-black fas fa-check"></i> Walls – Interior and Exterior
+                    </li>
+
+                    <li class="text-2xl">
+                        <i class="text-black fas fa-check"></i> Ceilings and Floors
+                    </li>
+
+                    <li class="text-2xl">
+                        <i class="text-black fas fa-check"></i> Stairways – Interior and Exterior
+                    </li>
+
+                    <li class="text-2xl">
+                        <i class="text-black fas fa-check"></i> Windows Doors – Interior and Exterior
+                    </li>
+
+                    <li class="text-2xl">
+                        <i class="text-black fas fa-check"></i> Fireplace
+                    </li>
+
+                    <li class="text-2xl">
+                        <i class="text-black fas fa-check"></i> Porches, Decks and Railing
+                    </li>
+
+                    <li class="text-2xl">
+                        <i class="text-black fas fa-check"></i> Garage Doors and Openers
+                    </li>
+
+                    <li class="text-2xl">
+                        <i class="text-black fas fa-check"></i> Balconies and Carports
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="container mx-auto text-center grid grid-cols-2 pt-8">
+
+        <div class="bg-gray-400">
+
+            <div class="p-14 m-14">
+                <i class="big-icon pt-5 text-black fas fa-flash"></i>
+            </div>
+            
+        </div>
+
+        <div class="bg-yellow-500">
+            
+            <div class="p-8 m-11">
+                <p class="font-bold pb-5 text-4xl">Electrical Inspection</p>
+                <ul class="text-left">
+                    <li class="text-2xl">
+                        <i class="text-black fas fa-check"></i> Service Entrance and Panels
+                    </li>
+                    
+                    <li class="text-2xl">
+                        <i class="text-black fas fa-check"></i> Branch Circuits
+                    </li>
+
+                    <li class="text-2xl">
+                        <i class="text-black fas fa-check"></i> Connected Devices and Fixtures
+                    </li>
+
+                    <li class="text-2xl">
+                        <i class="text-black fas fa-check"></i> GFCIs
+                    </li>
+
+                    <li class="text-2xl">
+                        <i class="text-black fas fa-check"></i> Arc Faults
+                    </li>
+
+                    <li class="text-2xl">
+                        <i class="text-black fas fa-check"></i> Smoke Detectors
+                    </li>
+
+                    <li class="text-2xl">
+                        <i class="text-black fas fa-check"></i> Carbon Dioxide Detectors
+                    </li>
+            </div>
+
         </div>
 
     </div>
