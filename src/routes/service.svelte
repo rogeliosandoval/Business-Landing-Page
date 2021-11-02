@@ -178,4 +178,132 @@
 
     </div>
 
+    <div class="container mx-auto text-center grid grid-cols-2 pt-8">
+
+        <div class="bg-gray-400">
+
+            <div class="p-14 m-14">
+                <i class="big-icon pt-5 text-black fas fa-snowflake"></i>
+            </div>
+            
+        </div>
+
+        <div class="bg-yellow-500">
+            
+            <div class="p-8 m-11">
+                <p class="font-bold pb-5 text-4xl">HVAC Inspection</p>
+                <ul class="text-left">
+                    <li class="text-2xl">
+                        <i class="text-black fas fa-check"></i> Heating Equipment
+                    </li>
+                    
+                    <li class="text-2xl">
+                        <i class="text-black fas fa-check"></i> Cooling Equipment
+                    </li>
+
+                    <li class="text-2xl">
+                        <i class="text-black fas fa-check"></i> Vents
+                    </li>
+
+                    <li class="text-2xl">
+                        <i class="text-black fas fa-check"></i> Duct Systems
+                    </li>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="container mx-auto text-center grid grid-cols-2 pt-8">
+
+        <div class="bg-gray-400">
+
+            <div class="p-14 m-14">
+                <i class="big-icon pt-5 text-black fas fa-water"></i>
+            </div>
+            
+        </div>
+
+        <div class="bg-yellow-500">
+            
+            <div class="p-8 m-11">
+                <p class="font-bold pb-5 text-4xl">Plumbing Inspection</p>
+                <ul class="text-left">
+                    <li class="text-2xl">
+                        <i class="text-black fas fa-check"></i> Water Supply Systems
+                    </li>
+                    
+                    <li class="text-2xl">
+                        <i class="text-black fas fa-check"></i> Fixtures
+                    </li>
+
+                    <li class="text-2xl">
+                        <i class="text-black fas fa-check"></i> Water Heating Equipment
+                    </li>
+
+                    <li class="text-2xl">
+                        <i class="text-black fas fa-check"></i> Hydro – Massage Therapy Equipment
+                    </li>
+
+                    <li class="text-2xl">
+                        <i class="text-black fas fa-check"></i> Water PSI
+                    </li>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="container mx-auto text-center grid grid-cols-2 pt-8">
+
+        <div class="bg-gray-400">
+
+            <div class="p-14 m-14">
+                <i class="big-icon pt-5 text-black fas fa-check-square"></i>
+            </div>
+            
+        </div>
+
+        <div class="bg-yellow-500">
+            
+            <div class="p-8 m-11">
+                <p class="font-bold pb-5 text-4xl">Appliance Inspection</p>
+                <ul class="text-left">
+                    <li class="text-2xl">
+                        <i class="text-black fas fa-check"></i> Dishwasher
+                    </li>
+                    
+                    <li class="text-2xl">
+                        <i class="text-black fas fa-check"></i> Food Waste Disposal
+                    </li>
+
+                    <li class="text-2xl">
+                        <i class="text-black fas fa-check"></i> Range Hood
+                    </li>
+
+                    <li class="text-2xl">
+                        <i class="text-black fas fa-check"></i> Exhaust Systems
+                    </li>
+
+                    <li class="text-2xl">
+                        <i class="text-black fas fa-check"></i> Range, Cooktops and Ovens
+                    </li>
+
+                    <li class="text-2xl">
+                        <i class="text-black fas fa-check"></i> Microwave Ovens
+                    </li>
+
+                    <li class="text-2xl">
+                        <i class="text-black fas fa-check"></i> Mechanical Exhaust Vents
+                    </li>
+
+                    <li class="text-2xl">
+                        <i class="text-black fas fa-check"></i> Dryer Exhaust Vents
+                    </li>
+            </div>
+
+        </div>
+
+    </div>
+
 </section>
