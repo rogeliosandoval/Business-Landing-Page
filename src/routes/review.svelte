@@ -5,7 +5,7 @@
 
     <div class="text-6xl font-bold text-black text-center pt-10 pb-7">
         Inspected Once, Inspected Right®
-    </div>
+    </div> 
 
     <div class="container mx-auto pt-7 pb-7 text-center grid grid-cols-3 gap-x-20">
         
