@@ -35,6 +35,7 @@
         <i class="pt-5 text-black fas fa-map-pin fa-7x"></i>
         <div class="px-6 py-4">
             <div class="font-bold text-xl mb-2">Location</div>
+            <div>This is where i will add the map</div>
         </div>
         </div>
 
