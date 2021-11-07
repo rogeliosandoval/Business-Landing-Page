@@ -1,7 +1,41 @@
 <link rel="stylesheet" href="https://demos.creative-tim.com/notus-js/assets/styles/tailwind.css">
 <link rel="stylesheet" href="https://demos.creative-tim.com/notus-js/assets/vendor/@fortawesome/fontawesome-free/css/all.min.css">
 
-<section class="relative pb-12 pt-12 bg-yellow-200 font-sans">
+<style>
+
+    .bigvid {
+    filter: brightness(50%);
+    }
+
+    .cent {
+    width: 1150px;
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    }
+
+</style>
+
+<section class="relative pb-12 bg-yellow-200 font-sans">
+
+    <div class="mx-auto">
+        <video class="bigvid mx-auto border-t-4 border-b-4 border-blue-500 object-cover h-96 w-full" style="width:100%" muted autoplay loop>
+        <source src="https://yourtimehomeinspections.com/wp-content/uploads/2020/08/Preview-yourtime-site-vids-2-2.mp4" type="video/mp4" />
+        </video>
+        
+        <div class="cent container mx-auto text-center">
+
+            <div class="text-white font-bold text-5xl tracking-wider pb-10">
+                We Want To Be Your Home Inspection Team
+            </div>
+            
+            <div class="pb-40 text-white font-bold">
+                <a class="bg-yellow-600 rounded-lg hover:bg-yellow-700 px-3 py-3" href="#" style="border:3px solid white">200% GUARANTEE <i class="text-white fa fa-shield"></i></a>
+            </div>
+
+        </div>
+    </div>
 
     <div class="text-6xl font-bold text-black text-center pt-7 pb-7">
         About Us!
@@ -10,7 +44,7 @@
     <div class="container mx-auto pt-7 pb-16 text-center grid grid-cols-2 gap-x-20">
         
         <div>
-            <img class="mx-auto" style="width:400px;height:350px;" alt="house" src="../../img/bighouse.webp">
+            <img class="mx-auto" style="width:390px;height:350px;" alt="house" src="../../img/bighouse.webp">
         </div>
 
         <div>
