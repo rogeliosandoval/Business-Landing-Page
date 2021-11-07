@@ -10,7 +10,15 @@
     .cent {
     width: 1150px;
     position: absolute;
-    top: 15%;
+    top: 12%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    }
+
+    .cent2 {
+    width: 1150px;
+    position: absolute;
+    top: 93%;
     left: 50%;
     transform: translate(-50%, -50%);
     }
@@ -71,6 +79,24 @@
 
         <div>
             <img class="mx-auto" style="border: 5px solid white" alt="owners" src="https://yourtimehomeinspections.com/wp-content/uploads/2020/08/yourtimeowners-768x768.jpg">
+        </div>
+    </div>
+
+    <div class="mx-auto pt-10">
+        <video class="bigvid mx-auto border-t-4 border-b-4 border-blue-500 object-cover h-96 w-full" style="width:100%" muted autoplay loop>
+        <source src="https://yourtimehomeinspections.com//wp-content//uploads//2020//08//Preview-yourtime-site-vids-3.mp4" type="video/mp4" />
+        </video>
+        
+        <div class="cent2 container mx-auto text-center">
+
+            <div class="text-white tracking-wider">
+                Your Time Home Inspections
+            </div>
+            
+            <div class="pb-40 text-white font-bold">
+                <p class="font-bold text-6xl">Our Support Team</p>
+            </div>
+
         </div>
     </div>
 
