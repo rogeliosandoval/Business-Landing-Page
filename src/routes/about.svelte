@@ -1,6 +1,38 @@
 <link rel="stylesheet" href="https://demos.creative-tim.com/notus-js/assets/styles/tailwind.css">
 <link rel="stylesheet" href="https://demos.creative-tim.com/notus-js/assets/vendor/@fortawesome/fontawesome-free/css/all.min.css">
 
+<script>
+    import Card from "$lib/components/card.svelte"
+    
+    const employees = [
+    { 
+        name: "Roger Sandoval",
+        image: "../../img/employees/roggie.jpg",
+        bio: "I am a Grandma to 4 boys and one girl and a Great Grandma to three girls and one boy. I have over 10 years in clerical and support staff experience. I am Blessed to be a part of Your Time Home Inspections family.",
+    },
+    {
+        name: "Rebekah Morehouse",
+        image: "../../img/employees/rebekah.jpg",
+        bio: "I have been working in the home inspection business for 3+ years, scheduling inspections and providing high quality customer service. I look forward to assisting in anyway possible and improving my skills to continue serving our clients.",
+    },
+    {
+        name: "Kalen Bahlman",
+        image: "../../img/employees/kalen.jpg",
+        bio: "Born and Raised in San Antonio Texas. Went to College in Virginia studied Political Science, Multimedia Journalism and creative writing. Has 5 years of Customer service and spare time collects everything Star Wars.",
+    },
+    {
+        name: "Belinda Burnett",
+        image: "../../img/employees/belinda.jpg",
+        bio: "I am a Grandma to 4 boys and one girl and a Great Grandma to three girls and one boy. I have over 10 years in clerical and support staff experience. I am Blessed to be a part of Your Time Home Inspections family",
+    },
+    {
+        name: "Elvia Williams",
+        image: "../../img/employees/elvia.jpg",
+        bio: "Wife & Mother of three amazing young men and a Sidney Lanier Graduate. Banker by trade & now proud Co-owner with my Husband James Williams of Your Time Home Inspections. We continue to be blessed beyond words."
+    }]
+
+</script>
+
 <style>
 
     .bigvid {
@@ -10,7 +42,7 @@
     .cent {
     width: 1150px;
     position: absolute;
-    top: 12%;
+    top: 8%;
     left: 50%;
     transform: translate(-50%, -50%);
     }
@@ -18,7 +50,7 @@
     .cent2 {
     width: 1150px;
     position: absolute;
-    top: 92%;
+    top: 56%;
     left: 50%;
     transform: translate(-50%, -50%);
     }
@@ -100,5 +132,20 @@
         </div>
     </div>
 
+    <section class="mt-4 flex flex-wrap mx-auto w-3/4 gap-8 justify-center">
+        {#each employees as employee}
+            <Card>
+
+                <img class="mx-auto" slot="cardImage" style="width:305px;height:360px; border: 5px solid white" alt="{employee.name}" src="{employee.image}">
+
+                <p slot="cardTitle" class="font-bold text-3xl p-4">{employee.name}</p>
+                <p class="tracking-wider">"{employee.bio}"</p>
+
+            </Card>
+        {/each}
+
+    </section>
+
+    
 
 </section>
