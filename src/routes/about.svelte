@@ -45,9 +45,9 @@
         </div>
     </div>
 
-    <div class="text-6xl font-bold text-black text-center pt-7 pb-7">
+    <!-- <div class="text-6xl font-bold text-black text-center pt-7 pb-7">
         About Us!
-    </div> 
+    </div>  -->
 
     <div class="container mx-auto pt-7 pb-16 text-center grid grid-cols-2 gap-x-20">
         
@@ -99,5 +99,6 @@
 
         </div>
     </div>
+
 
 </section>
