@@ -49,7 +49,7 @@
         About Us!
     </div>  -->
 
-    <div class="container mx-auto pt-7 pb-16 text-center grid grid-cols-2 gap-x-20">
+    <div class="container mx-auto pt-16 pb-16 text-center grid grid-cols-2 gap-x-20">
         
         <div>
             <img class="mx-auto" style="width:390px;height:350px;" alt="house" src="../../img/bighouse.webp">
