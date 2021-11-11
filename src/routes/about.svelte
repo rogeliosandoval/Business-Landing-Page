@@ -49,8 +49,9 @@
 
     .cent2 {
     width: 1150px;
+    height: 424px;
     position: absolute;
-    top: 56%;
+    top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
     }
@@ -132,20 +133,12 @@
         </div>
     </div>
 
-    <section class="mt-4 flex flex-wrap mx-auto w-3/4 gap-8 justify-center">
+    <section class="mt-10 flex flex-wrap mx-auto w-3/4 gap-16 justify-center">
+
         {#each employees as employee}
-            <Card>
-
-                <img class="mx-auto" slot="cardImage" style="width:305px;height:360px; border: 5px solid white" alt="{employee.name}" src="{employee.image}">
-
-                <p slot="cardTitle" class="font-bold text-3xl p-4">{employee.name}</p>
-                <p class="tracking-wider">"{employee.bio}"</p>
-
-            </Card>
+            <Card employee={employee} />
         {/each}
 
     </section>
-
-    
 
 </section>
