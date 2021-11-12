@@ -72,7 +72,7 @@
     .cent {
     width: 1150px;
     position: absolute;
-    top: 6%;
+    top: 5%;
     left: 50%;
     transform: translate(-50%, -50%);
     }
@@ -81,7 +81,7 @@
     width: 1150px;
     height: 424px;
     position: absolute;
-    top: 43%;
+    top: 37%;
     left: 50%;
     transform: translate(-50%, -50%);
     }
@@ -90,7 +90,7 @@
     width: 1150px;
     height: 424px;
     position: absolute;
-    top: 80%;
+    top: 68%;
     left: 50%;
     transform: translate(-50%, -50%);
     }
@@ -106,7 +106,7 @@
         
         <div class="cent container mx-auto text-center">
 
-            <div class="text-white font-bold text-5xl tracking-wider pb-10">
+            <div class="text-white font-bold text-5xl tracking-wider pb-10" style="text-shadow:black 0px 0px 10px;">
                 We Want To Be Your Home Inspection Team
             </div>
             
@@ -208,7 +208,7 @@
 
     <div class="mx-auto text-center pt-12 pb-12 font-sans text-6xl">
         <h1 class="tracking-widest bg-yellow-600 p-5">Our Certifications</h1>
-      </div>
+    </div>
      
       <div class="container mx-auto pt-4">
         <div class="grid grid-cols-5 gap-4 text-center bg-white p-5">

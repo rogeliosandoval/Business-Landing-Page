@@ -106,7 +106,7 @@
         </div>
 
         <div class="mt-4 text-lg leading-relaxed text-blue-900">
-          <a class="hover:text-blue-500 hover:underline" href="#">More FAQ Here</a>
+          <a class="hover:text-blue-500 hover:underline" href="/faq">More FAQ Here</a>
         </div>
 
       </div>
@@ -125,11 +125,11 @@
     
     <div class="cent container mx-auto text-center">
 
-      <div class="text-white">
+      <div class="text-white text-2xl">
         Your Time Home Inspections
       </div>
     
-      <div class="pb-40 text-6xl text-white font-bold">
+      <div class="pb-40 text-6xl text-white font-bold" style="text-shadow:black 0px 0px 10px;">
         Inspected Once, Inspected Right®
       </div>
 
@@ -170,8 +170,8 @@
     </div>
   </div>
 
-  <div class="container mx-auto text-center pt-12 pb-12 font-sans text-6xl">
-    <h1 class="tracking-widest">Our Certifications</h1>
+  <div class="mx-auto text-center pt-12 pb-12 font-sans text-6xl">
+    <h1 class="tracking-widest bg-yellow-600 p-5">Our Certifications</h1>
   </div>
  
   <div class="container mx-auto pt-4">

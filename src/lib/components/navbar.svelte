@@ -27,7 +27,7 @@
 			<li><a class="hover:text-gray-400" href="/service">Services</a></li>
 			<li><a class="hover:text-gray-400" href="/career">Careers</a></li>
 			<li><a class="hover:text-gray-400" href="/about">About Us</a></li>
-			<li><a class="hover:text-gray-400" href="#">FAQs</a></li>
+			<li><a class="hover:text-gray-400" href="/faq">FAQs</a></li>
 			<li><a class="hover:text-gray-400" href="/contact">Contact Us</a></li>
 		  </ul>
 		</div>

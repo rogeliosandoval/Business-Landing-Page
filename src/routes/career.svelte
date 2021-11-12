@@ -11,7 +11,7 @@
     .cent {
     width: 1150px;
     position: absolute;
-    top: 25%;
+    top: 24%;
     left: 50%;
     transform: translate(-50%, -50%);
     }
@@ -32,16 +32,16 @@
 
     <div class="container mx-auto">
         <video class="bigvid mx-auto border-t-4 border-b-4 border-blue-500" style="width:100%" muted autoplay loop>
-        <source src="https://yourtimehomeinspections.com/wp-content/uploads/2020/08/Preview-yourtime-site-vids-2-2.mp4" type="video/mp4" />
+        <source src="../../video/landing.webm" type="video/webm" />
         </video>
         
         <div class="cent container mx-auto text-center">
 
-            <div class="text-white">
+            <div class="text-white text-2xl">
                 get a career with
             </div>
             
-            <div class="pb-40 text-6xl text-white font-bold">
+            <div class="pb-40 text-6xl text-white font-bold" style="text-shadow:black 0px 0px 10px;">
                 YOUR TIME HOME INSPECTIONS
             </div>
 
