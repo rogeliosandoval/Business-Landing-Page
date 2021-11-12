@@ -3,13 +3,14 @@
 
 <script>
     import Card from "$lib/components/card.svelte"
+    import Card2 from "$lib/components/card2.svelte"
     
     const employees = [
     
         {
             name: "Rebekah Morehouse",
             image: "../../img/employees/rebekah.jpg",
-            bio: "I have been working in the home inspection business for 3+ years, scheduling inspections and providing high quality customer service. I look forward to assisting in anyway possible and improving my skills to continue serving our clients.",
+            bio: "\"I have been working in the home inspection business for 3+ years, scheduling inspections and providing high quality customer service. I look forward to assisting in anyway possible and improving my skills to continue serving our clients.\"",
         },
         {
             name: "Kalen Bahlman",
@@ -19,17 +20,17 @@
         {
             name: "Belinda Burnett",
             image: "../../img/employees/belinda.jpg",
-            bio: "I am a Grandma to 4 boys and one girl and a Great Grandma to three girls and one boy. I have over 10 years in clerical and support staff experience. I am Blessed to be a part of Your Time Home Inspections family",
+            bio: "\"I am a Grandma to 4 boys and one girl and a Great Grandma to three girls and one boy. I have over 10 years in clerical and support staff experience. I am Blessed to be a part of Your Time Home Inspections family\"",
         },
         {
             name: "Elvia Williams",
             image: "../../img/employees/elvia.jpg",
-            bio: "Wife & Mother of three amazing young men and a Sidney Lanier Graduate. Banker by trade & now proud Co-owner with my Husband James Williams of Your Time Home Inspections. We continue to be blessed beyond words."
+            bio: "\"Wife & Mother of three amazing young men and a Sidney Lanier Graduate. Banker by trade & now proud Co-owner with my Husband James Williams of Your Time Home Inspections. We continue to be blessed beyond words.\""
         },
         { 
             name: "Roger Sandoval",
             image: "../../img/employees/roggie.jpg",
-            bio: "I am a Grandma to 4 boys and one girl and a Great Grandma to three girls and one boy. I have over 10 years in clerical and support staff experience. I am Blessed to be a part of Your Time Home Inspections family.",
+            bio: "Roger provides his creativity in producing films, advertisements, applications and more for the company. Born and Raised in San Antonio, Roger has trasitioned from working in the service and goods industry into the world of tech and music engineering. Currently working on mulitple projects including a Your Time Home Inspections exclusive WDI form application.",
         }
     ]
 
@@ -43,13 +44,13 @@
         {
             name: "Luis Vargas",
             image: "../../img/employees/luis.jpg",
-            bio: "I am very motivated and enthusiastic to help people when buying/selling a home. Married and father of an amazing woman. I speak Spanish and graduated in Mechanical Engineering.",
+            bio: "\"I am very motivated and enthusiastic to help people when buying/selling a home. Married and father of an amazing woman. I speak Spanish and graduated in Mechanical Engineering.\"",
             trec: "23535"
         },
         {
             name: "Robbie Spencer",
             image: "../../img/employees/robbie.jpg",
-            bio: "Proud Retired ARMY Staff Sergeant, Combat Veteran, and Patriot enlisting to follow in my father’s footsteps. I’m extremely proud to be a part of Your Time Home Inspections and eager to serve your home inspection needs!",
+            bio: "\"Proud Retired ARMY Staff Sergeant, Combat Veteran, and Patriot enlisting to follow in my father’s footsteps. I’m extremely proud to be a part of Your Time Home Inspections and eager to serve your home inspection needs!\"",
             trec: "23968"
         },
         {
@@ -71,7 +72,7 @@
     .cent {
     width: 1150px;
     position: absolute;
-    top: 8%;
+    top: 6%;
     left: 50%;
     transform: translate(-50%, -50%);
     }
@@ -80,7 +81,7 @@
     width: 1150px;
     height: 424px;
     position: absolute;
-    top: 53%;
+    top: 43%;
     left: 50%;
     transform: translate(-50%, -50%);
     }
@@ -89,7 +90,7 @@
     width: 1150px;
     height: 424px;
     position: absolute;
-    top: 73%;
+    top: 80%;
     left: 50%;
     transform: translate(-50%, -50%);
     }
@@ -200,9 +201,79 @@
     <section class="mt-10 flex flex-wrap mx-auto w-3/4 gap-16 justify-center">
 
         {#each employees2 as employee}
-            <Card employee={employee} />
+            <Card2 employee={employee} />
         {/each}
 
     </section>
+
+    <div class="mx-auto text-center pt-12 pb-12 font-sans text-6xl">
+        <h1 class="tracking-widest bg-yellow-600 p-5">Our Certifications</h1>
+      </div>
+     
+      <div class="container mx-auto pt-4">
+        <div class="grid grid-cols-5 gap-4 text-center bg-white p-5">
+    
+          <div class="mx-auto">
+            <img alt="cert1" src="../../img/icons/c1.png">
+          </div>
+    
+          <div class="mx-auto">
+            <img alt="cert2" src="../../img/icons/c2.png">
+          </div>
+    
+          <div class="mx-auto">
+            <img alt="cert3" src="../../img/icons/c3.png">
+          </div>
+    
+          <div class="mx-auto">
+            <img alt="cert4" src="../../img/icons/c4.png">
+          </div>
+    
+          <div class="mx-auto">
+            <img alt="cert5" src="../../img/icons/c5.png">
+          </div>
+    
+          <div class="mx-auto">
+            <img alt="cert6" src="../../img/icons/c6.jpeg">
+          </div>
+    
+          <div class="mx-auto">
+            <img alt="cert7" src="../../img/icons/c7.png">
+          </div>
+    
+          <div class="mx-auto">
+            <img alt="cert8" src="../../img/icons/c8.png">
+          </div>
+    
+          <div class="mx-auto">
+            <img alt="cert9" src="../../img/icons/c9.png">
+          </div>
+    
+          <div class="mx-auto">
+            <img alt="cert10" src="../../img/icons/c10.png">
+          </div>
+    
+          <div class="mx-auto">
+            <img alt="cert11" src="../../img/icons/c11.png">
+          </div>
+    
+          <div class="mx-auto">
+            <img alt="cert12" src="../../img/icons/c12.png">
+          </div>
+    
+          <div class="mx-auto">
+            <img alt="cert13" src="../../img/icons/c13.png">
+          </div>
+    
+          <div class="mx-auto">
+            <img alt="cert14" src="../../img/icons/c14.png">
+          </div>
+    
+          <div class="mx-auto pt-8">
+            <img alt="cert15" src="../../img/icons/c15.gif">
+          </div>
+    
+        </div>
+    </div>
 
 </section>

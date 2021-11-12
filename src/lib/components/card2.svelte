@@ -13,6 +13,8 @@
         <p class="font-bold text-3xl p-4">{employee.name}</p>
         <p class="tracking-wider">{employee.bio}</p>
 
+        <p class="tracking-wider font-bold p-9">TREC#{employee.trec}</p>
+
     </div>
 
 </div>
