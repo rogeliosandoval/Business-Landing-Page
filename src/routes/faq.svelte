@@ -43,7 +43,7 @@
 
     <div class="p-7">
         <div class="box container mx-auto text-center">
-            <p class="font-bold text-4xl p-6">“What is the difference between a home inspection and an appraisal?"</p>
+            <p class="font-bold text-4xl p-4">“What is the difference between a home inspection and an appraisal?"</p>
 
             <p class="text-2xl p-4 max-w-6xl mx-auto">Usually the confusion starts with the the fact they both are needed prior to closing. The difference between these two is the simple fact that one determines the value of a home for your mortgage lender while the other determines the condition of a home for your benefit.
             <br>
@@ -56,9 +56,9 @@
 
     <div class="p-7">
         <div class="box container mx-auto text-center">
-        <p class="font-bold text-4xl p-6">“Do I need to get a home inspection?"</p>
+        <p class="font-bold text-4xl p-4">“Do I need to get a home inspection?"</p>
 
-        <p class="text-2xl p-4 max-w-6xl mx-auto">Answer
+        <p class="text-2xl p-4 max-w-6xl mx-auto">There is no law that requires a buyer or a seller to conduct an inspection when purchasing or selling any home. However, getting a home inspection can uncover potentially hazardous issues that may become a problem in the future. Usually people wont notice little things with a quick look around but a home inspection will be able to provide you with a thorough review of your home. Basically, better to be safe than sorry.
         </p>
         </div>
     </div>
