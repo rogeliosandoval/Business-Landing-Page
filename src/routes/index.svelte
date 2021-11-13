@@ -123,7 +123,7 @@
       <source src="https://metrixhosting.com/wp-content/uploads/2020/08/Preview-yourtime-site-vids-1.mp4" type="video/mp4" />
     </video>
     
-    <div class="cent container mx-auto text-center">
+    <!-- <div class="cent container mx-auto text-center">
 
       <div class="text-white text-2xl">
         Your Time Home Inspections
@@ -167,11 +167,11 @@
 
       </div>
 
-    </div>
+    </div> -->
   </div>
 
-  <div class="mx-auto text-center pt-12 pb-12 font-sans text-6xl">
-    <h1 class="tracking-widest bg-yellow-600 p-5">Our Certifications</h1>
+  <div class="mx-auto text-center pt-12 pb-12 font-sans text-6xl sm:text-2xl md:text-2xl">
+      <h1 class="tracking-widest bg-yellow-600 p-5">Our Certifications</h1>
   </div>
  
   <div class="container mx-auto pt-4">
