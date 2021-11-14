@@ -1,7 +1,3 @@
-<!-- component -->
-<link rel="stylesheet" href="https://demos.creative-tim.com/notus-js/assets/styles/tailwind.css">
-<link rel="stylesheet" href="https://demos.creative-tim.com/notus-js/assets/vendor/@fortawesome/fontawesome-free/css/all.min.css">
-
 <style>
 
   .team {
@@ -170,11 +166,11 @@
     </div> -->
   </div>
 
-  <div class="mx-auto text-center pt-12 pb-12 font-sans text-6xl sm:text-2xl md:text-2xl">
-      <h1 class="tracking-widest bg-yellow-600 p-5">Our Certifications</h1>
+  <div class="mx-auto text-center py-2 sm:py-6 lg:py-12 font-sans">
+      <p class="tracking-widest bg-yellow-600 p-5 text-3xl sm:text-5xl lg:text-6xl">Our Certifications</p>
   </div>
  
-  <div class="container mx-auto pt-4">
+  <div class="container mx-auto pt-2">
     <div class="grid grid-cols-5 gap-4 text-center bg-white p-5">
 
       <div class="mx-auto">

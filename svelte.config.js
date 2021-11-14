@@ -7,11 +7,10 @@ const config = {
 		target: '#svelte',
 	},
 
-	preprocess: [
-		preprocess({
-			postcss: true
+	preprocess:preprocess({
+			postcss: true,
+			defaults: {style:"postcss"}
 		})
-	]
 	
 };
 
