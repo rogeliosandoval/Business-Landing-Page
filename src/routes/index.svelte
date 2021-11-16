@@ -91,7 +91,7 @@
   </div>
 
   <div class="container mx-auto pb-12">
-    <div class="grid grid-cols-2 gap-4 pt-20 pb-20">
+    <div class="grid grid-row-2 md:grid-cols-2 lg:grid-cols-2 gap-4 pt-20 pb-20">
 
       <div>
 
