@@ -1,19 +1,29 @@
 <style>
 
   .team {
-  filter: brightness(75%);
+    filter: brightness(75%);
   }
 
   .bigvid {
-  filter: brightness(50%);
+    filter: brightness(50%);
   }
 
   .cent {
-  width: 1150px;
-  position: absolute;
-  top: 62%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+    width: 1150px;
+    position: absolute;
+    top: 62%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  #div1 { 
+    display: none; 
+  }
+
+  @media screen and (min-width: 1280px) {
+    #div1 { 
+      display: inline-block;
+    }
   }
 
 </style>
@@ -91,7 +101,7 @@
   </div>
 
   <div class="container mx-auto pb-12">
-    <div class="grid grid-row-2 md:grid-cols-2 lg:grid-cols-2 gap-4 pt-20 pb-20">
+    <div class="grid grid-row-2 md:grid-cols-2 lg:grid-cols-2 gap-4 pt-5 pb-5 md:pt-15 md:pb-15 lg:pt-20 lg:pb-20">
 
       <div>
 
@@ -107,19 +117,22 @@
 
       </div>
 
-      <div>
+      <div class="pt-10 md:pt-0 lg:pt-0">
         <img class="mx-auto" alt="house" src="../../img/house.png">
       </div>
 
     </div>
   </div>
 
+
+
   <div class="container mx-auto">
+
     <video class="bigvid mx-auto border-t-4 border-b-4 border-blue-500" style="width:100%" muted autoplay loop>
       <source src="https://metrixhosting.com/wp-content/uploads/2020/08/Preview-yourtime-site-vids-1.mp4" type="video/mp4" />
     </video>
     
-    <!-- <div class="cent container mx-auto text-center">
+    <div class="cent container mx-auto text-center" id="div1">
 
       <div class="text-white text-2xl">
         Your Time Home Inspections
@@ -163,10 +176,10 @@
 
       </div>
 
-    </div> -->
+    </div>
   </div>
 
-  <div class="mx-auto text-center py-2 sm:py-6 lg:py-12 font-sans">
+  <div class="mx-auto text-center py-8 sm:py-6 lg:py-12 font-sans">
       <p class="tracking-widest bg-yellow-600 p-5 text-3xl sm:text-5xl lg:text-6xl">Our Certifications</p>
   </div>
  
