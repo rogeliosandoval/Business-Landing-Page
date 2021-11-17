@@ -4,7 +4,7 @@
 
 </script>
 
-<div class="flex justify-center gap-x-2 max-w-2xl text-center">
+<div class="flex flex-row flex-wrap md:flex-nowrap justify-center gap-y-5 md:gap-x-2 max-w-2xl text-center">
 
     <img class="mx-auto" alt="{employee.name}" src="{employee.image}">
 
@@ -12,8 +12,6 @@
 
         <p class="font-bold text-3xl p-4">{employee.name}</p>
         <p class="tracking-wider">{employee.bio}</p>
-
-        <p class="tracking-wider font-bold p-9">TREC#{employee.trec}</p>
 
     </div>
 
