@@ -1,65 +1,7 @@
-<link rel="stylesheet" href="https://demos.creative-tim.com/notus-js/assets/styles/tailwind.css">
-<link rel="stylesheet" href="https://demos.creative-tim.com/notus-js/assets/vendor/@fortawesome/fontawesome-free/css/all.min.css">
-
 <script>
-    import Card from "$lib/components/card.svelte"
-    import Card2 from "$lib/components/card2.svelte"
-    
-    const employees = [
-    
-        {
-            name: "Rebekah Morehouse",
-            image: "../../img/employees/rebekah.jpg",
-            bio: "\"I have been working in the home inspection business for 3+ years, scheduling inspections and providing high quality customer service. I look forward to assisting in anyway possible and improving my skills to continue serving our clients.\"",
-        },
-        {
-            name: "Kalen Bahlman",
-            image: "../../img/employees/kalen.jpg",
-            bio: "Born and Raised in San Antonio Texas. Went to College in Virginia studied Political Science, Multimedia Journalism and creative writing. Has 5 years of Customer service and spare time collects everything Star Wars.",
-        },
-        {
-            name: "Belinda Burnett",
-            image: "../../img/employees/belinda.jpg",
-            bio: "\"I am a Grandma to 4 boys and one girl and a Great Grandma to three girls and one boy. I have over 10 years in clerical and support staff experience. I am Blessed to be a part of Your Time Home Inspections family\"",
-        },
-        {
-            name: "Elvia Williams",
-            image: "../../img/employees/elvia.jpg",
-            bio: "\"Wife & Mother of three amazing young men and a Sidney Lanier Graduate. Banker by trade & now proud Co-owner with my Husband James Williams of Your Time Home Inspections. We continue to be blessed beyond words.\""
-        },
-        { 
-            name: "Roger Sandoval",
-            image: "../../img/employees/roggie.jpg",
-            bio: "Roger provides his creativity in producing films, advertisements, applications and more for the company. Born and Raised in San Antonio, Roger has trasitioned from working in the service and goods industry into the world of tech and music engineering. Currently working on mulitple projects including a Your Time Home Inspections exclusive WDI form application.",
-        }
-    ]
 
-    const employees2 = [
-        {
-            name: "James Williams",
-            image: "../../img/employees/james.jpg",
-            bio: "James is co-owner and lead inspector of Your Time Home Inspections. He has been in the construction field both in residential and commercial his whole career to include commercial construction and commercial concrete.",
-            trec: "21507"
-        },
-        {
-            name: "Luis Vargas",
-            image: "../../img/employees/luis.jpg",
-            bio: "\"I am very motivated and enthusiastic to help people when buying/selling a home. Married and father of an amazing woman. I speak Spanish and graduated in Mechanical Engineering.\"",
-            trec: "23535"
-        },
-        {
-            name: "Robbie Spencer",
-            image: "../../img/employees/robbie.jpg",
-            bio: "\"Proud Retired ARMY Staff Sergeant, Combat Veteran, and Patriot enlisting to follow in my father’s footsteps. I’m extremely proud to be a part of Your Time Home Inspections and eager to serve your home inspection needs!\"",
-            trec: "23968"
-        },
-        {
-            name: "Nicholas Pooley",
-            image: "../../img/employees/nicholas.jpg",
-            bio: "Owned his own Home Inspection Company in Maine called “ Bay view Home Inspections”. Has two cats one is 8 years old named Daryl Loves to play Bass on his spare time and Bartend.",
-            trec: "24758"
-        }
-    ]
+    import Employees from "$lib/components/employees.svelte"
+    import Inspectors from "$lib/components/inspectors.svelte"
 
 </script>
 
@@ -95,6 +37,37 @@
     transform: translate(-50%, -50%);
     }
 
+    @media screen and (min-width: 1280px) {
+        #word {
+            font-size: 30px;
+        }
+
+        #word2 {
+            font-size: 54px;
+            text-shadow: black 0px 0px 10px;
+        }
+
+        #word3 {
+            font-size: 21px;
+        }
+    }
+
+    @media screen and (min-width:640px) and (max-width:1280px) {
+        #word {
+            font-size: 25px;
+        }
+
+        #word2 {
+            font-size: 44px;
+            text-shadow: black 0px 0px 10px;
+        }
+
+        #word3 {
+            font-size: 17px;
+        }
+    }
+
+
 </style>
 
 <section class="relative pb-12 bg-yellow-200 font-sans">
@@ -104,7 +77,7 @@
         <source src="https://yourtimehomeinspections.com/wp-content/uploads/2020/08/Preview-yourtime-site-vids-2-2.mp4" type="video/mp4" />
         </video>
         
-        <div class="cent container mx-auto text-center">
+        <!-- <div class="cent container mx-auto text-center">
 
             <div class="text-white font-bold text-5xl tracking-wider pb-10" style="text-shadow:black 0px 0px 10px;">
                 We Want To Be Your Home Inspection Team
@@ -114,17 +87,13 @@
                 <a class="bg-yellow-600 rounded-lg hover:bg-yellow-700 px-3 py-3" href="#" style="border:3px solid white">200% GUARANTEE <i class="text-white fa fa-shield"></i></a>
             </div>
 
-        </div>
+        </div> -->
     </div>
 
-    <!-- <div class="text-6xl font-bold text-black text-center pt-7 pb-7">
-        About Us!
-    </div>  -->
-
-    <div class="container mx-auto pt-16 pb-16 text-center grid grid-cols-2 gap-x-20">
+    <div class="container mx-auto pt-5 md:pt-16 pb-16 text-center grid grid-rows-1 md:grid-cols-2 md:gap-x-20">
         
         <div>
-            <img class="mx-auto" style="width:390px;height:350px;" alt="house" src="../../img/bighouse.webp">
+            <img class="mx-auto pt-5 pb-5" style="width:390px;height:350px;" alt="house" src="../../img/bighouse.webp">
         </div>
 
         <div>
@@ -138,28 +107,28 @@
 
     </div>
 
-    <div class="px-80 py-12 mx-auto bg-yellow-600 grid grid-cols-2 gap-x-10">
+    <div class="text-center py-12 xl:px-10 mx-auto bg-yellow-600 grid grid-rows-1 xl:grid-cols-2 xl:gap-x-10">
 
-        <div class="px-9 py-8">
-            <p class="font-bold text-xl">Our Owners</p>
-            <p class="font-bold text-5xl text-white tracking-wide pt-5">James & Elvia Williams</p>
-            <p class="font-bold  text-white pt-5 text-xl">Our Promise To You</p>
-            <p class="tracking-widest text-white">Choosing the right home inspector can be difficult. Different inspectors have varying qualifications, equipment, experience, reporting methods, and pricing. One thing that’s certain is that a home inspection requires a lot of work. Ultimately, a thorough inspection depends heavily on the individual inspector’s effort. If you honor us with your trust to inspect your new home, we guarantee that we will give you a very best effort. This is our promise to you.</p>
-            <p class="font-bold text-white pt-5 text-xl">Giving Back</p>
-            <p class="tracking-widest text-white">We believe that true success is about more than growing a Home Inspection business; we devote time each year to charitable causes that benefit diverse populations. From helping the homeless to sponsoring charities that help families adopt children, Your Time Home Inspections is committed to improving the town we call home.</p>
+        <div class="px-3 py-2 xl:px-9 xl:py-8">
+            <p class="font-bold text-xl md:pt-12" id="word">Our Owners</p>
+            <p class="font-bold text-2xl md:text-5xl text-white tracking-wide pt-5 md:pb-10" id="word2">James & Elvia Williams</p>
+            <p class="font-bold  text-white pt-5 pb-5 text-xl" id="word">Our Promise To You</p>
+            <p class="tracking-widest text-white md:pb-5 lg:pb-10 md:px-11" id="word3">Choosing the right home inspector can be difficult. Different inspectors have varying qualifications, equipment, experience, reporting methods, and pricing. One thing that’s certain is that a home inspection requires a lot of work. Ultimately, a thorough inspection depends heavily on the individual inspector’s effort. If you honor us with your trust to inspect your new home, we guarantee that we will give you a very best effort. This is our promise to you.</p>
+            <p class="font-bold text-white pt-5 pb-5 text-xl" id="word">Giving Back</p>
+            <p class="tracking-widest text-white md:px-11" id="word3">We believe that true success is about more than growing a Home Inspection business; we devote time each year to charitable causes that benefit diverse populations. From helping the homeless to sponsoring charities that help families adopt children, Your Time Home Inspections is committed to improving the town we call home.</p>
         </div>
 
-        <div>
+        <div class="pt-8">
             <img class="mx-auto" style="border: 5px solid white" alt="owners" src="https://yourtimehomeinspections.com/wp-content/uploads/2020/08/yourtimeowners-768x768.jpg">
         </div>
     </div>
 
-    <div class="mx-auto pt-10">
+    <div class="mx-auto md:pt-10">
         <video class="bigvid mx-auto border-t-4 border-b-4 border-blue-500 object-cover h-96 w-full" style="width:100%" muted autoplay loop>
         <source src="https://yourtimehomeinspections.com//wp-content//uploads//2020//08//Preview-yourtime-site-vids-3.mp4" type="video/mp4" />
         </video>
         
-        <div class="cent2 container mx-auto text-center">
+        <!-- <div class="cent2 container mx-auto text-center">
 
             <div class="text-white tracking-wider text-lg">
                 Your Time Home Inspections
@@ -169,23 +138,17 @@
                 <p class="font-bold text-6xl tracking-wider">Our Support Team</p>
             </div>
 
-        </div>
+        </div> -->
     </div>
 
-    <section class="mt-10 flex flex-wrap mx-auto w-3/4 gap-16 justify-center">
-
-        {#each employees as employee}
-            <Card employee={employee} />
-        {/each}
-
-    </section>
+    <Employees />
 
     <div class="mx-auto pt-10">
         <video class="bigvid mx-auto border-t-4 border-b-4 border-blue-500 object-cover h-96 w-full" style="width:100%" muted autoplay loop>
         <source src="https://metrixhosting.com/wp-content/uploads/2020/08/Preview-yourtime-site-vids-1.mp4" type="video/mp4" />
         </video>
         
-        <div class="cent3 container mx-auto text-center">
+        <!-- <div class="cent3 container mx-auto text-center">
 
             <div class="text-white tracking-wider text-lg">
                 Your Time Home Inspections
@@ -195,83 +158,85 @@
                 <p class="font-bold text-6xl tracking-wider">Your Home Inspectors</p>
             </div>
 
-        </div>
+        </div> -->
     </div>
 
-    <section class="mt-10 flex flex-wrap mx-auto w-3/4 gap-16 justify-center">
+    <Inspectors />
 
-        {#each employees2 as employee}
-            <Card2 employee={employee} />
-        {/each}
-
-    </section>
-
-    <div class="mx-auto text-center pt-12 pb-12 font-sans text-6xl">
-        <h1 class="tracking-widest bg-yellow-600 p-5">Our Certifications</h1>
+    <div class="mx-auto text-center py-8 sm:py-6 lg:py-12 font-sans">
+        <p class="tracking-widest bg-yellow-600 p-5 text-3xl sm:text-5xl lg:text-6xl">Our Certifications</p>
     </div>
      
-      <div class="container mx-auto pt-4">
+    <div class="container mx-auto pt-4">
         <div class="grid grid-cols-5 gap-4 text-center bg-white p-5">
-    
-          <div class="mx-auto">
+
+        <!-- {#each [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15] as n}
+
+            <div class="mx-auto">
+                <img alt="cert{n}" src="img/icons/c{n}.png">
+            </div>
+
+        {/each} -->
+
+        <div class="mx-auto">
             <img alt="cert1" src="../../img/icons/c1.png">
-          </div>
+        </div>
     
-          <div class="mx-auto">
+        <div class="mx-auto">
             <img alt="cert2" src="../../img/icons/c2.png">
-          </div>
+        </div>
     
-          <div class="mx-auto">
+        <div class="mx-auto">
             <img alt="cert3" src="../../img/icons/c3.png">
-          </div>
+        </div>
     
-          <div class="mx-auto">
+        <div class="mx-auto">
             <img alt="cert4" src="../../img/icons/c4.png">
-          </div>
+        </div>
     
-          <div class="mx-auto">
+        <div class="mx-auto">
             <img alt="cert5" src="../../img/icons/c5.png">
-          </div>
+        </div>
     
-          <div class="mx-auto">
+        <div class="mx-auto">
             <img alt="cert6" src="../../img/icons/c6.jpeg">
-          </div>
+        </div>
     
-          <div class="mx-auto">
+        <div class="mx-auto">
             <img alt="cert7" src="../../img/icons/c7.png">
-          </div>
+        </div>
     
-          <div class="mx-auto">
+        <div class="mx-auto">
             <img alt="cert8" src="../../img/icons/c8.png">
-          </div>
+        </div>
     
-          <div class="mx-auto">
+        <div class="mx-auto">
             <img alt="cert9" src="../../img/icons/c9.png">
-          </div>
+        </div>
     
-          <div class="mx-auto">
+        <div class="mx-auto">
             <img alt="cert10" src="../../img/icons/c10.png">
-          </div>
+        </div>
     
-          <div class="mx-auto">
+        <div class="mx-auto">
             <img alt="cert11" src="../../img/icons/c11.png">
-          </div>
+        </div>
     
-          <div class="mx-auto">
+        <div class="mx-auto">
             <img alt="cert12" src="../../img/icons/c12.png">
-          </div>
+        </div>
     
-          <div class="mx-auto">
+        <div class="mx-auto">
             <img alt="cert13" src="../../img/icons/c13.png">
-          </div>
+        </div>
     
-          <div class="mx-auto">
+        <div class="mx-auto">
             <img alt="cert14" src="../../img/icons/c14.png">
-          </div>
+        </div>
     
-          <div class="mx-auto pt-8">
+        <div class="mx-auto pt-8">
             <img alt="cert15" src="../../img/icons/c15.gif">
-          </div>
+        </div>
     
         </div>
     </div>
