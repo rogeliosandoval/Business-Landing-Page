@@ -16,6 +16,54 @@
     transform: translate(-50%, -50%);
     }
 
+    #div1 { 
+    display: none; 
+    }
+
+    #career {
+    display: none;
+    }
+
+    #career2 {
+    display: none;
+    }
+
+  @media screen and (min-width: 1280px) {
+    #div1 { 
+      display: inline-block;
+    }
+  }
+
+  @media screen and (min-width:640px) and (max-width:1280px) {
+
+    .cent3 {
+        position: absolute;
+        top: 22%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    #career2 {
+        display: inline-block;
+    }
+
+  }
+
+  @media screen and (max-width: 640px) {
+
+    .cent2 {
+        position: absolute;
+        top: 18%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    #career { 
+        display: inline-block;
+    }
+
+  }
+
 </style>
 
 <script>
@@ -28,14 +76,36 @@
 
 <Modal {displayModal} {displayModal2} {displayModal3} />
 
-<section class="relative pb-12 pt-12 bg-yellow-200 font-sans">
+<section class="relative pt-5 md:pb-12 lg:pb-12 md:pt-12 lg:pt-12 bg-yellow-200 font-sans">
 
     <div class="container mx-auto">
         <video class="bigvid mx-auto border-t-4 border-b-4 border-blue-500" style="width:100%" muted autoplay loop>
         <source src="../../video/landing.webm" type="video/webm" />
         </video>
+
+        <div class="cent2 container mx-auto text-center" id="career">
+
+            <div class="text-white text-sm">
+                get a career with
+            </div>
+            
+            <div class="pb-40 text-xl text-white font-bold" style="text-shadow:black 0px 0px 10px;">
+                YOUR TIME HOME INSPECTIONS
+            </div>
+        </div>
+
+        <div class="cent3 container mx-auto text-center" id="career2">
+
+            <div class="text-white text-xl">
+                get a career with
+            </div>
+            
+            <div class="pb-40 text-3xl text-white font-bold" style="text-shadow:black 0px 0px 10px;">
+                YOUR TIME HOME INSPECTIONS
+            </div>
+        </div>
         
-        <div class="cent container mx-auto text-center">
+        <div class="cent container mx-auto text-center" id="div1">
 
             <div class="text-white text-2xl">
                 get a career with
@@ -77,9 +147,9 @@
         </div>
     </div>
 
-    <div class="container w-1/2 mx-auto pt-20">
+    <div class="mx-auto pt-5 md:pt-20 lg:pt-20 md:container md:w-3/4 lg:container lg:w-1/2">
 
-        <form class="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4">
+        <form class="bg-white shadow-md rounded px-8 pt-6 pb-8">
 
             <label class="block text-grey-700 text-sm font-bold mb-2" for="interest">Position Of Interest</label>
             <label class="text-sm text-blue-600 pl-4"><input type="radio" name="interests" value="Inspector"> Inspector</label>
@@ -119,7 +189,5 @@
             </div>
             
         </form>
-        
-
     </div>
 </section>
