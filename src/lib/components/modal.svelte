@@ -126,7 +126,7 @@
         top: 0;
         left: 0;
         background-color: rgba(0,0,0,0.7);
-        position: absolute;
+        position: fixed;
         z-index: 444;
     }
 
@@ -138,5 +138,4 @@
         top: 25%;
         background-color: cornsilk
     }
-
 </style>
