@@ -1,17 +1,18 @@
-<link rel="stylesheet" href="https://demos.creative-tim.com/notus-js/assets/styles/tailwind.css">
-<link rel="stylesheet" href="https://demos.creative-tim.com/notus-js/assets/vendor/@fortawesome/fontawesome-free/css/all.min.css">
+<style>
 
-<section class="relative pb-12 pt-12 bg-yellow-200 font-sans">
+    .card {
+        width: 415px;
+    }
 
-    <div class="text-6xl font-bold text-black text-center pt-10 pb-7">
-        Contact Us
-    </div>
+</style>
 
-    <div class="container mx-auto pt-7 pb-7 text-center grid grid-cols-3 gap-x-20">
+<section class="relative md:pb-12 md:pt-12 bg-yellow-200 font-sans">
+
+    <div class="md:pt-3 md:pb-3 flex flex-wrap flex-row md:gap-y-10 gap-x-10 justify-center text-center">
         
-        <div class="max-w-sm rounded overflow-hidden shadow-lg bg-blue-100">
+        <div class="card rounded overflow-hidden shadow-lg bg-blue-100">
         <i class="pt-5 text-black fas fa-phone fa-7x"></i>
-        <div class="px-6 py-4">
+        <div class="px-8 py-4">
             <div class="font-bold text-xl mb-1">Phone</div>
             <div class="text-xl mb-4">(210) 367-2945</div>
             <div class="font-bold text-xl mb-1">Email</div>
@@ -19,9 +20,9 @@
         </div>
         </div>
 
-        <div class="max-w-sm rounded overflow-hidden shadow-lg bg-blue-100 pb-7">
-        <i class="pt-5 text-black fas fa-clock fa-7x"></i>
-        <div class="px-6 py-4">
+        <div class="card rounded overflow-hidden shadow-lg bg-blue-100">
+        <i class="pt-5 text-blue-500 fas fa-clock fa-7x"></i>
+        <div class="px-8 py-4">
             <div class="font-bold text-xl mb-4">Our Hours</div>
             <div class="text-xl">Monday-Friday</div>
             <div class="text-xl mb-4">8:00am-4:00pm</div>
@@ -31,9 +32,9 @@
         </div>
         </div>
 
-        <div class="max-w-sm rounded overflow-hidden shadow-lg bg-blue-100">
-        <i class="pt-5 text-black fas fa-map-pin fa-7x"></i>
-        <div class="px-6 py-4">
+        <div class="card rounded overflow-hidden shadow-lg bg-blue-100">
+        <i class="pt-5 text-red-600 fas fa-map-pin fa-7x"></i>
+        <div class="px-8 py-4">
             <div class="font-bold text-xl mb-2">Location</div>
             <div class="mx-auto">
 
