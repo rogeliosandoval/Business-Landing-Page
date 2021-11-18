@@ -11,30 +11,44 @@
     filter: brightness(50%);
     }
 
-    .cent {
-    width: 1150px;
-    position: absolute;
-    top: 5%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    #career {
+    display: none;
     }
 
-    .cent2 {
-    width: 1150px;
-    height: 424px;
-    position: absolute;
-    top: 37%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    #career2 {
+    display:none;
     }
 
-    .cent3 {
-    width: 1150px;
-    height: 424px;
-    position: absolute;
-    top: 68%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    #career3 {
+    display: none;
+    }
+
+    @media screen and (min-width: 1536px) {
+
+        .cent2 {
+        position: absolute;
+        top: 39.2%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 65px;
+        }
+
+        .cent3 {
+        position: absolute;
+        top: 69.2%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 65px;
+        }
+
+        #career2 {
+        display: inline-block;
+        }
+
+        #career3 {
+        display: inline-block;
+        }
+
     }
 
     @media screen and (min-width: 1280px) {
@@ -50,9 +64,35 @@
         #word3 {
             font-size: 21px;
         }
+
+        .cent {
+        position: absolute;
+        top: 4%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 40px;
+        }
+
+        #career { 
+        display: inline-block;
+        }
+
     }
 
     @media screen and (min-width:640px) and (max-width:1280px) {
+
+        .cent {
+        position: absolute;
+        top: 3%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 28px;
+        }
+
+        #career {
+        display: inline-block;
+        }
+
         #word {
             font-size: 25px;
         }
@@ -67,15 +107,66 @@
         }
     }
 
+    @media screen and (max-width: 640px) {
+
+        .cent {
+        position: absolute;
+        top: 2%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 23px;
+        }
+
+        .cent2 {
+        position: absolute;
+        top:27.6%;
+        left:50%;
+        transform: translate(-50%, -50%);
+        font-size: 35px;
+        }
+
+        .cent3 {
+        position: absolute;
+        top:65%;
+        left:50%;
+        transform: translate(-50%, -50%);
+        font-size: 27px;
+        }
+
+        #career { 
+        display: inline-block;
+        }
+
+        #career2 {
+        display: inline-block;
+        }
+
+        #career3 {
+        display: inline-block;
+        }
+
+    }
+
 
 </style>
 
-<section class="relative pb-12 bg-yellow-200 font-sans">
+<section class="relative bg-yellow-200 font-sans">
 
     <div class="mx-auto">
         <video class="bigvid mx-auto border-t-4 border-b-4 border-blue-500 object-cover h-96 w-full" style="width:100%" muted autoplay loop>
         <source src="https://yourtimehomeinspections.com/wp-content/uploads/2020/08/Preview-yourtime-site-vids-2-2.mp4" type="video/mp4" />
         </video>
+
+        <div class="cent mx-auto text-center" id="career">
+
+            <div class="text-white pb-5 font-bold" style="text-shadow:black 0px 0px 10px;">
+                We Want To Be Your Home Inspection Team
+            </div>
+            
+            <div class="text-white">
+                <a class="bg-yellow-600 rounded-lg hover:bg-yellow-700 px-2 py-2 text-sm" href="#" style="border:3px solid white">200% GUARANTEE <i class="text-white fa fa-shield"></i></a>
+            </div>
+        </div>
         
         <!-- <div class="cent container mx-auto text-center">
 
@@ -88,6 +179,7 @@
             </div>
 
         </div> -->
+
     </div>
 
     <div class="container mx-auto pt-5 md:pt-16 pb-16 text-center grid grid-rows-1 md:grid-cols-2 md:gap-x-20">
@@ -124,9 +216,21 @@
     </div>
 
     <div class="mx-auto md:pt-10">
-        <video class="bigvid mx-auto border-t-4 border-b-4 border-blue-500 object-cover h-96 w-full" style="width:100%" muted autoplay loop>
+        <video class="bigvid mx-auto border-t-4 border-b-4 border-blue-500 object-cover h-64 2xl:h-96 w-full" style="width:100%" muted autoplay loop>
         <source src="https://yourtimehomeinspections.com//wp-content//uploads//2020//08//Preview-yourtime-site-vids-3.mp4" type="video/mp4" />
         </video>
+
+        <div class="cent2 container mx-auto text-center" id="career2">
+
+            <div class="text-white tracking-wider text-lg">
+                Your Time Home Inspections
+            </div>
+            
+            <div class="pb-40 text-white font-bold">
+                <p class="font-bold tracking-wider" style="text-shadow:black 0px 0px 10px;">Our Support Team</p>
+            </div>
+
+        </div>
         
         <!-- <div class="cent2 container mx-auto text-center">
 
@@ -144,9 +248,21 @@
     <Employees />
 
     <div class="mx-auto pt-10">
-        <video class="bigvid mx-auto border-t-4 border-b-4 border-blue-500 object-cover h-96 w-full" style="width:100%" muted autoplay loop>
+        <video class="bigvid mx-auto border-t-4 border-b-4 border-blue-500 object-cover h-64 2xl:h-96 w-full" style="width:100%" muted autoplay loop>
         <source src="https://metrixhosting.com/wp-content/uploads/2020/08/Preview-yourtime-site-vids-1.mp4" type="video/mp4" />
         </video>
+
+        <div class="cent3 container mx-auto text-center" id="career3">
+
+            <div class="text-white tracking-wider text-sm">
+                Your Time Home Inspections
+            </div>
+            
+            <div class="pb-40 text-white font-bold">
+                <p class="font-bold tracking-wider" style="text-shadow:black 0px 0px 10px;">Your Home Inspectors</p>
+            </div>
+
+        </div>
         
         <!-- <div class="cent3 container mx-auto text-center">
 
@@ -163,11 +279,11 @@
 
     <Inspectors />
 
-    <div class="mx-auto text-center py-8 sm:py-6 lg:py-12 font-sans">
+    <div class="mx-auto text-center pt-8 sm:py-6 lg:py-12 font-sans">
         <p class="tracking-widest bg-yellow-600 p-5 text-3xl sm:text-5xl lg:text-6xl">Our Certifications</p>
     </div>
      
-    <div class="container mx-auto pt-4">
+    <div class="container mx-auto">
         <div class="grid grid-cols-5 gap-4 text-center bg-white p-5">
 
         <!-- {#each [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15] as n}
