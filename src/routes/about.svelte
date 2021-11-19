@@ -283,7 +283,7 @@
         <p class="tracking-widest bg-yellow-600 p-5 text-3xl sm:text-5xl lg:text-6xl">Our Certifications</p>
     </div>
      
-    <div class="container mx-auto">
+    <div class="container mx-auto md:pb-8">
         <div class="grid grid-cols-5 gap-4 text-center bg-white p-5">
 
         <!-- {#each [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15] as n}
