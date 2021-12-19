@@ -108,7 +108,7 @@
         <h1 class="text-3xl font-semibold">Why should I get a home inspection?</h1>
         
         <div class="mt-4 text-lg leading-relaxed text-blueGray-500">
-          A home inspection allows buyers and owners to learn more about the issues that are present within the property they are interested in before buying or investing in it. Many lenders won't offer financing on a home without an inspection. Home inspections can uncover potentially life-threatening problems like mold or faulty wiring that could cause a significant fire.
+          A home inspection allows buyers and owners to learn more about the issues that are present within the property they are interested in before buying or investing in it. Many lenders won't offer financing on a home without an inspection. Home inspections can uncover potentially life-threatening problems like mold or faulty wiring that could cause a significant fire. It's always better to be safe than sorry!
         </div>
 
         <div class="mt-4 text-lg leading-relaxed text-blue-900">
