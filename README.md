@@ -1,6 +1,6 @@
 <h1>Your Time Home Inspections Website One</h1>
 <h3>Framework Used:</h3>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/svelte/svelte-original.svg" width="50px;"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/svelte/svelte-original.svg" width="65px;"/>
 <h3>Languages Used:</h3>
 <p float="left">
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg" width="60px;"/>
