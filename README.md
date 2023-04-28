@@ -17,4 +17,3 @@ Creating cards and utilizing Tailwind's CSS framework, this allows the website t
 <br>
 <br>
 <img src="Web2.png" alt="pic2" width="100%" height="auto">
-<h5><i>Still a work in progress but this project has been a great opportunity for me to learn.</i><h5b>
