@@ -1,4 +1,4 @@
-<h1>Your Time Home Inspections Website One</h1>
+<h1>Your Time Home Inspections Website 1</h1>
 <h3>Framework Used:</h3>
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/svelte/svelte-original.svg" width="60px;"/>
 <h3>Languages Used:</h3>
